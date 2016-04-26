@@ -32,8 +32,8 @@
 	- [Volume não é precisão](#4.10)
 	- [Não corra para declarar que você encontrou um bug](#4.11)
 	- [Bajulação não substitui você de fazer seu trabalho de casa](#4.12)
-	- [Descreve os sintomas do problema, não suas suposições](#4.13)
-	- [Descreve os sintomas do seu problema em uma ordem cronológica](#4.14)
+	- [Descreva os sintomas do problema, não suas suposições](#4.13)
+	- [Descreva os sintomas do seu problema em uma ordem cronológica](#4.14)
 	- [Descreva o objetivo não o passo](#4.15)
 	- [Não peça às pessoas para responderem por e-mail privado](#4.16)
 	- [Seja explícito sobre sua questão](#4.17)
@@ -67,7 +67,7 @@ If you're reading this document because you need help, and you walk away with th
 <a name="2" />
 # Introdução
 
-In the world of hackers, the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
+In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
 
 Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too.
 
@@ -87,7 +87,7 @@ So, while it isn't necessary to already be technically competent to get attentio
 
 If you decide to come to us for help, you don't want to be one of the losers. You don't want to seem like one, either. The best way to get a rapid and responsive answer is to ask it like a person with smarts, confidence, and clues who just happens to need help on one particular problem.
 
-(Improvements to this guide are welcome. You can mail suggestions to esr@thyrsus.com or respond-auto@linuxmafia.com. Note however that this document is not intended to be a general guide to netiquette, and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.)
+(Improvements to this guide are welcome. You can mail suggestions to <esr@thyrsus.com> or <respond-auto@linuxmafia.com>. Note however that this document is not intended to be a general guide to [netiquette](http://www.ietf.org/rfc/rfc1855.txt), and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.)
 
 <a name="3" />
 # Antes de você perguntar
@@ -106,7 +106,7 @@ If you're a programmer, try to find an answer by reading the source code.
 
 When you ask your question, display the fact that you have done these things first; this will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers.
 
-Use tactics like doing a Google search on the text of whatever error message you get (searching Google groups as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread.
+Use tactics like doing a Google search on the text of whatever error message you get (searching [Google groups](http://groups.google.com) as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread.
 
 Take your time. Do not expect to be able to solve a complicated problem with a few seconds of Googling. Read and understand the FAQs, sit back, relax and give the problem some thought before approaching experts. Trust us, they will be able to tell from your questions how much reading and thinking you did, and will be more willing to help if you come prepared. Don't instantly fire your whole arsenal of questions just because your first search turned up no answers (or too many).
 
@@ -161,7 +161,7 @@ Start with a Google search before looking at Stack Exchange; Google indexes it i
 
 If you still didn't find anything, post your question on the one site where it's most on-topic. Use the formatting tools, especially for code, and add tags that are related to the substance of your question (particularly the name of the programming language, operating system, or library you're having trouble with). If a commenter asks you for more information, edit your main post to include it. If any answer is helpful, click the up arrow to upvote it; if an answer gives a solution to your problem, click the check under the voting arrows to accept it as correct.
 
-Stack Exchange has grown to over 100 sites, but here are the most likely candidates:
+Stack Exchange has grown to [over 100 sites](http://stackexchange.com/sites), but here are the most likely candidates:
 
 Super User is for questions about general-purpose computing. If your question isn't about code or programs that you talk to only over a network connection, it probably goes here.
 
@@ -232,7 +232,7 @@ On Web forums the rules of good practice are slightly different, because message
 <a name="4.6" />
 ## Torne fácil para responder
 
-Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, get a better mail program. If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
+Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, [get a better mail program](http://linuxmafia.com/faq/Mail/muas.html). If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
 
 In Web forums, asking for a reply by e-mail is outright rude, unless you believe the information may be sensitive (and somebody will, for some unknown reason, let you but not the whole forum know it). If you want an e-mail copy when somebody replies in the thread, request that the Web forum send it; this feature is supported almost everywhere under options like “watch this thread”, “send e-mail on answers”, etc.
 
@@ -264,7 +264,7 @@ I've posted my question in $LANGUAGE and English. I'll be glad to translate resp
 
 If you make your question artificially hard to read, it is more likely to be passed over in favor of one that isn't. So:
 
-Send plain text mail, not HTML. (It's not hard to turn off HTML.)
+Send plain text mail, not HTML. (It's not hard to [turn off HTML](http://www.birdhouse.org/etc/evilmail.html).)
 
 MIME attachments are usually OK, but only if they are real content (such as an attached source file or patch), and not merely boilerplate generated by your mail client (such as another copy of your message).
 
@@ -301,7 +301,7 @@ Do the best you can to anticipate the questions a hacker will ask, and answer th
 
 Giving hackers the ability to reproduce the problem in a controlled environment is especially important if you are reporting something you think is a bug in code. When you do this, your odds of getting a useful answer and the speed with which you are likely to get that answer both improve tremendously.
 
-Simon Tatham has written an excellent essay entitled How to Report Bugs Effectively. I strongly recommend that you read it.
+Simon Tatham has written an excellent essay entitled [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). I strongly recommend that you read it.
 
 <a name="4.10" />
 ## Volume não é precisão
@@ -315,7 +315,7 @@ This is useful for at least three reasons. One: being seen to invest effort in s
 
 When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.
 
-Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, didn't you?). This means that very probably it is you who are doing something wrong, not the software.
+Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#3)?). This means that very probably it is you who are doing something wrong, not the software.
 
 The people who wrote the software work very hard to make it work as well as possible. If you claim you have found a bug, you'll be impugning their competence, which may offend some of them even if you are correct. It's especially undiplomatic to yell “bug” in the Subject line.
 
@@ -331,7 +331,7 @@ Don't waste your time, or ours, on crude primate politics. Instead, present the 
 Sometimes Web forums have separate places for newbie questions. If you feel you do have a newbie question, just go there. But don't grovel there either.
 
 <a name="4.13" />
-## Descreve os sintomas do problema, não suas suposições
+## Descreva os sintomas do problema, não suas suposições
 
 It's not useful to tell hackers what you think is causing your problem. (If your diagnostic theories were such hot stuff, would you be consulting others for help?) So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you.
 
@@ -344,7 +344,7 @@ It's not useful to tell hackers what you think is causing your problem. (If your
 Since the preceding point seems to be a tough one for many people to grasp, here's a phrase to remind you: "All diagnosticians are from Missouri." That US state's official motto is "Show me" (earned in 1899, when Congressman Willard D. Vandiver said "I come from a country that raises corn and cotton and cockleburs and Democrats, and frothy eloquence neither convinces nor satisfies me. I'm from Missouri. You've got to show me.") In diagnosticians' case, it's not a matter of skepticism, but rather a literal, functional need to see whatever is as close as possible to the same raw evidence that you see, rather than your surmises and summaries. Show us.
 
 <a name="4.14" />
-## Descreve os sintomas do seu problema em uma ordem cronológica
+## Descreva os sintomas do seu problema em uma ordem cronológica
 
 The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. In the case of command-line processes, having a session log (e.g., using the script utility) and quoting the relevant twenty or so lines is very useful.
 
@@ -392,7 +392,7 @@ So it is useful to frame your question to minimize the time commitment required 
 
 Don't ask others to debug your broken code without giving a hint what sort of problem they should be searching for. Posting a few hundred lines of code, saying "it doesn't work", will get you ignored. Posting a dozen lines of code, saying "after line 7 I was expecting to see <x>, but <y> occurred instead" is much more likely to get you a response.
 
-The most effective way to be precise about a code problem is to provide a minimal bug-demonstrating test case. What's a minimal test case? It's an illustration of the problem; just enough code to exhibit the undesirable behavior and no more. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example (i.e. enough that the source is acceptable to the compiler/interpreter/whatever application processes it). If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. The smaller your minimal test case is, the better (see the section called “Volume is not precision”).
+The most effective way to be precise about a code problem is to provide a minimal bug-demonstrating test case. What's a minimal test case? It's an illustration of the problem; just enough code to exhibit the undesirable behavior and no more. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example (i.e. enough that the source is acceptable to the compiler/interpreter/whatever application processes it). If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. The smaller your minimal test case is, the better (see [the section called “Volume is not precision”](#4.10)).
 
 Generating a really small minimal test case will not always be possible, but trying to is good discipline. It may help you learn what you need to solve the problem on your own — and even when it doesn't, hackers like to see that you have tried. It will make them more cooperative.
 
@@ -410,7 +410,7 @@ If you suspect you have been passed a homework question, but can't solve it anyw
 
 Resist the temptation to close your request for help with semantically-null questions like “Can anyone help me?” or “Is there an answer?” First: if you've written your problem description halfway competently, such tacked-on questions are at best superfluous. Second: because they are superfluous, hackers find them annoying — and are likely to return logically impeccable but dismissive answers like “Yes, you can be helped” and “No, there is no help for you.”
 
-In general, asking yes-or-no questions is a good thing to avoid unless you want a yes-or-no answer.
+In general, asking yes-or-no questions is a good thing to avoid unless you want a [yes-or-no answer](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html).
 
 <a name="4.21" />
 ## Não marque sua questão como “Urgente”, até mesmo se ela é pra você
@@ -487,7 +487,7 @@ On the other hand, you will occasionally run across rudeness and posturing that 
 
 (Some people assert that many hackers have a mild form of autism or Asperger's Syndrome, and are actually missing some of the brain circuitry that lubricates “normal” human social interaction. This may or may not be true. If you are not a hacker yourself, it may help you cope with our eccentricities if you think of us as being brain-damaged. Go right ahead. We won't care; we like being whatever it is we are, and generally have a healthy skepticism about clinical labels.)
 
-Jeff Bigler's observations about tact filters are also relevant and worth reading.
+Jeff Bigler's observations about [tact filters](http://www.mit.edu/~jcb/tact.html) are also relevant and worth reading.
 
 In the next section, we'll talk about a different issue; the kind of “rudeness” you'll see when you misbehave.
 
@@ -520,7 +520,7 @@ Don't let yourself be drawn into a flamewar, either. Most flames are best ignore
 Here are some classic stupid questions, and what hackers are thinking when they don't answer them.
 
 - Q: Where can I find program or resource X?
-	- A: The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use Google yet?
+	- A: The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use [Google](http://www.google.com) yet?
 
 - Q: How can I use X to do Y?
 	- A: If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. 
@@ -528,7 +528,7 @@ Here are some classic stupid questions, and what hackers are thinking when they 
 	Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.
 
 - Q: How can I configure my shell prompt?
-	- A: If you're smart enough to ask this question, you're smart enough to RTFM and find out yourself.
+	- A: If you're smart enough to ask this question, you're smart enough to [RTFM](#5.1) and find out yourself.
 
 - Q: Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?
 	- A: Try it and see. If you did that, you'd (a) learn the answer, and (b) stop wasting my time.
@@ -551,7 +551,7 @@ Here are some classic stupid questions, and what hackers are thinking when they 
 	- A: While it is possible that you are the first person to notice an obvious deficiency in system calls and libraries heavily used by hundreds or thousands of people, it is rather more likely that you are utterly clueless. Extraordinary claims require extraordinary evidence; when you make a claim like this one, you must back it up with clear and exhaustive documentation of the failure case.
 
 - Q: I'm having problems installing Linux or X. Can you help?
-	- A: No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups here.)
+	- A: No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups [here](http://www.linux.org/groups/index.html).)
 
 	Note: questions about installing Linux may be appropriate if you're on a forum or mailing list about a particular distribution, and the problem is with that distro; or on local user groups forums. In this case, be sure to describe the exact details of the failure. But do careful searching first, with "linux" and all suspicious pieces of hardware.
 
@@ -564,7 +564,7 @@ Here are some classic stupid questions, and what hackers are thinking when they 
 Finally, I'm going to illustrate how to ask questions in a smart way by example; pairs of questions about the same problem, one asked in a stupid way and one in a smart way.
 
 - Stupid: Where can I find out stuff about the Foonly Flurbamatic?
-This question just begs for "STFW" as a reply.
+This question just begs for ["STFW"](#5.1) as a reply.
 
 - Smart: I used Google to try to find “Foonly Flurbamatic 2600” on the Web, but I got no useful hits. Can I get a pointer to programming information on this device?
 This one has already STFWed, and sounds like there might be a real problem.
@@ -634,9 +634,9 @@ If you did research to answer the question, demonstrate your skills rather than 
 <a name="11" />
 # Recursos relacionados
 
-If you need instruction in the basics of how personal computers, Unix, and the Internet work, see The Unix and Internet Fundamentals HOWTO.
+If you need instruction in the basics of how personal computers, Unix, and the Internet work, see [The Unix and Internet Fundamentals HOWTO](http://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/).
 
-When you release software or write patches for software, try to follow the guidelines in the Software Release Practice HOWTO.
+When you release software or write patches for software, try to follow the guidelines in the [Software Release Practice HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
 
 <a name="12" />
 # Agradecimentos
