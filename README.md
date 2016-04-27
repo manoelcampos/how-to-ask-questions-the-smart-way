@@ -58,26 +58,32 @@
 <a name="1" />
 # Aviso Legal
 
-Many project websites link to this document in their sections on how to get help. That's fine, it's the use we intended — but if you are a webmaster creating such a link for your project page, please display prominently near the link notice that we are not a help desk for your project!
 
-We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems.
+Muitos websites de projetos incluem links para este documento em suas seções de como obter ajuda. Isto é bom, é o uso que pretendemos - mas se você é um webmaster criando tal link para sua página de projeto, por favor mostre, perto do link, um aviso proeminente que nós não somos help desk para o seu projeto!
 
-If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, you are one of the idiots we are talking about. Don't ask us questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. Unless you know for certain that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier.
+Nós temos aprendido da maneira difícil que, sem tal aviso, nós repetidamente iremos ser importunados por idiotas que acham que por nós termos publicado este documento, é nosso trabalho resolver todos os problemas técnicos do mundo.
+
+Se você está lendo este documento porque precisa de ajuda, e tiver a impressão de que a obterá diretamente dos autores deste documento, você é um dos idiotas que estamos falando a respeito.
+
+Não nos faça perguntas. Nós iremos apenas ignorá-lo. Nós estamos aqui para mostrá-lo como obter ajuda que de fato conhecem o software ou hardware com o qual você está lidando, mas 99.9% das vezes não seremos nós. A menos que você saiba com certeza que um dos autores deste documento é um expert naquilo com o qual você está lidando, deixe nos em paz e todos ficarão felizes. 
 
 <a name="2" />
 # Introdução
 
-In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
 
-Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too.
+Em um undo de [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), o tipo de resposta que você obtém para suas perguntas técnicas depende muito da forma que você faz as perguntas como da dificuldade de desenvolver a resposta. Este guia irá ensiná-lo como fazer perguntas de uma forma que seja mais provável de obter uma resposta satisfatória.
 
-The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them. If we didn't, we wouldn't be here. If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment.
+Agora que projetos de open source (código aberto) se difundiram, você frequentemente pode obter boas respostas de usuários mais experientes do que de hackers. Isto é uma Coisa Boa; usuários tendem a ser apenas um pouco mais tolerantes ao tipo de falhas que iniciantes frequentemente cometem. Ainda, tratar usuários experientes como hackers, das formas que recomendamos aqui, irá geralmente ser mais eficiente para obter respostas úteis deles, também.  
 
-Despite this, hackers have a reputation for meeting simple questions with what looks like hostility or arrogance. It sometimes looks like we're reflexively rude to newbies and the ignorant. But this isn't really true.
+A primeira coisa a entender é que hackers realmente gostam de problemas difíceis e perguntas boas e instigantes sobre eles. Se não gostassemos, não estaríamos aqui. Se você nos fornece uma questão interessante para mastigar, seremos gratos a você; boas perguntas são um estímulo e uma dádiva. Boas perguntas nos ajudam a desenvolver nosso entendimento, e frequentemente revelam problemas que podemos não ter notado ou pensado a respeito de outra maneira. Entre hackers, "Boa pergunta!" é um cumprimento forte e sincero.
 
-What we are, unapologetically, is hostile to people who seem to be unwilling to think or to do their own homework before asking questions. People like that are time sinks — they take without giving back, and they waste time we could have spent on another question more interesting and another person more worthy of an answer. We call people like this “losers” (and for historical reasons we sometimes spell it “lusers”).
+Apesar disto, hackers tem uma reputação de responder questões simples de uma maneira que parece hostil e arrogante. Algumas vezes parece que somos automaticamente rudes com iniciantes e ignorantes. Mas isto não é realmente verdade. 
 
-We realize that there are many people who just want to use the software we write, and who have no interest in learning technical details. For most people, a computer is merely a tool, a means to an end; they have more important things to do and lives to live. We acknowledge that, and don't expect everyone to take an interest in the technical matters that fascinate us. Nevertheless, our style of answering questions is tuned for people who do take such an interest and are willing to be active participants in problem-solving. That's not going to change. Nor should it; if it did, we would become less effective at the things we do best.
+O que somos, indescupavelmente, é hostis com pessoas que parecem não querer pensar ou fazer seu próprio trabalho de casa antes de fazer perguntas. Pessoas como estas são sugadoras de tempo - elas tomam sem dar nada de volta, e disperdiçam o tempo que poderíamos ter gasto em outras questões mais interessantes ou outra pessoa que mais valha uma resposta. Nós chamamos pessoas assim de "losers (perdedores)" (e por razões históricas, algumas vezes soletramos "lusers"). 
+
+Nós percebemos que existem muitas pessoas que apenas querem usar o software que desenvolvemos, e que não tem qualquer interesse em aprender detalhes técnicos. Para estes pessoas, um computador é meramente uma ferramenta, um emio para um fim; elas tem coisas mais importantes a fazer e vidas para viver. Nós reconhecemos isto, e não esperamos que cada um se interesse pelas questões técnicas que nos fascinam. No entanto, nosso estilo de responder perguntas é adaptado para pessoas que tem tal interesse e desejam ser participantes ativos na resolução de problemas. Isto não vai mudar. Nem deveria; se mudar, poderíamos nos tornar menos efetivos nas coisas que fazemos de melhor. 
+
+
 
 We're (largely) volunteers. We take time out of busy lives to answer questions, and at times we're overwhelmed with them. So we filter ruthlessly. In particular, we throw away questions from people who appear to be losers in order to spend our question-answering time more efficiently, on winners.
 
