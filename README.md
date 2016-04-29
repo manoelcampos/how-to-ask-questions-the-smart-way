@@ -70,7 +70,6 @@ Não nos faça perguntas. Nós iremos apenas ignorá-lo. Nós estamos aqui para 
 <a name="2" />
 # Introdução
 
-
 Em um undo de [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), o tipo de resposta que você obtém para suas perguntas técnicas depende muito da forma que você faz as perguntas como da dificuldade de desenvolver a resposta. Este guia irá ensiná-lo como fazer perguntas de uma forma que seja mais provável de obter uma resposta satisfatória.
 
 Agora que projetos de open source (código aberto) se difundiram, você frequentemente pode obter boas respostas de usuários mais experientes do que de hackers. Isto é uma Coisa Boa; usuários tendem a ser apenas um pouco mais tolerantes ao tipo de falhas que iniciantes frequentemente cometem. Ainda, tratar usuários experientes como hackers, das formas que recomendamos aqui, irá geralmente ser mais eficiente para obter respostas úteis deles, também.  
@@ -83,17 +82,15 @@ O que somos, indescupavelmente, é hostis com pessoas que parecem não querer pe
 
 Nós percebemos que existem muitas pessoas que apenas querem usar o software que desenvolvemos, e que não tem qualquer interesse em aprender detalhes técnicos. Para estes pessoas, um computador é meramente uma ferramenta, um emio para um fim; elas tem coisas mais importantes a fazer e vidas para viver. Nós reconhecemos isto, e não esperamos que cada um se interesse pelas questões técnicas que nos fascinam. No entanto, nosso estilo de responder perguntas é adaptado para pessoas que tem tal interesse e desejam ser participantes ativos na resolução de problemas. Isto não vai mudar. Nem deveria; se mudar, poderíamos nos tornar menos efetivos nas coisas que fazemos de melhor. 
 
+Nó somos (amplamente) voluntários. Nós tiramos tempo de nossas vidas ocupadas para responder perguntas, e as vezes nós somos sobrecarregados com elas. Então, nós fazemos um filtro impiedoso. Em particular, nós descartamos questões de pessoas que parecem ser perdedores, a fim de gastar nosso tempo de responder perguntas mais eficientemente, com vencedores.
 
+Se você acha esta atidude desagradável, condescendente, ou arrogante, verifique nossas premissas. Não estamos pedindo para você se ajoelhar perante nós - de fato, a maioria de nós não poderia amar nada mais do que lidar com você como um igual e dar lhe boas vindas à nossa cultura, se você dedicar o esforço necessário para tornar isto possível. Mas é simplesmente ineficiente para nós tentar ajudar pessoas que não ajudam a si mesmas. Não há problema em ser ignorante; mas não vale bancar o estúpido.
 
-We're (largely) volunteers. We take time out of busy lives to answer questions, and at times we're overwhelmed with them. So we filter ruthlessly. In particular, we throw away questions from people who appear to be losers in order to spend our question-answering time more efficiently, on winners.
+Então, enquanto não é necessário já ser tecnicamente competente para obter nossa atenção, é necessário demonstrar o tipo de atitude que leva à competência - estar alerta, pensativo, observador, desejando ser um parceiro ativo no desenvolvimento de uma solução. Se você não pode viver com este tipo de discriminação, sugerimos que pague alguém por um contrato de suporte comercial, ao invés de pedir a hackers que pessoalmente lhe doem ajuda.  
 
-If you find this attitude obnoxious, condescending, or arrogant, check your assumptions. We're not asking you to genuflect to us — in fact, most of us would love nothing more than to deal with you as an equal and welcome you into our culture, if you put in the effort required to make that possible. But it's simply not efficient for us to try to help people who are not willing to help themselves. It's OK to be ignorant; it's not OK to play stupid.
+Se você decide recorrer a nós por ajuda, você não quer ser um dos perdedores. Você não quer ao menos parecer como um. A melhor forma de obter uma resposta rápida e adequada é perguntar como uma pessoa inteligente, confiante e que tenha pistas sobre a questão, precisando apenas de ajuda em um problema particular.
 
-So, while it isn't necessary to already be technically competent to get attention from us, it is necessary to demonstrate the kind of attitude that leads to competence — alert, thoughtful, observant, willing to be an active partner in developing a solution. If you can't live with this sort of discrimination, we suggest you pay somebody for a commercial support contract instead of asking hackers to personally donate help to you.
-
-If you decide to come to us for help, you don't want to be one of the losers. You don't want to seem like one, either. The best way to get a rapid and responsive answer is to ask it like a person with smarts, confidence, and clues who just happens to need help on one particular problem.
-
-(Improvements to this guide are welcome. You can mail suggestions to <esr@thyrsus.com> or <respond-auto@linuxmafia.com>. Note however that this document is not intended to be a general guide to [netiquette](http://www.ietf.org/rfc/rfc1855.txt), and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.)
+(Melhorias para este guia são bem vindas. Você pode enviar sugestões para <esr@thyrsus.com> ou <respond-auto@linuxmafia.com>. Observe, no entanto, que este documento não tem a intenção de ser um guia geral para [netiqueta](http://www.ietf.org/rfc/rfc1855.txt), e geralmente iremos rejeitar sugestões que não sejam especificamente relacionadas a elicitar respostas úteis em um fórum técnico.)
 
 <a name="3" />
 # Antes de você perguntar
