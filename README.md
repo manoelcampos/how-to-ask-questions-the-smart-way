@@ -117,7 +117,7 @@ Leve seu tempo. Não espere ser capaz de resolver um problema complicado com alg
 
 Prepare sua pergunta. Pense sobre ela. Respostas que pareçam precipitadas obtêm respostas precipitadas, ou nenhuma sequer. Quanto mais você demonstra que raciocinou e se esforçou em resolver seu problema antes de procurar ajuda, mais probabilidade você tem de obter ajuda de fato.
 
-Tenha cuidado ao fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um ["J. Random Hacker"](https://en.wikipedia.org/wiki/J._Random_Hacker) responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
+Tenha cuidado para não fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um ["J. Random Hacker"](https://en.wikipedia.org/wiki/J._Random_Hacker) responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
 
 Nunca assuma que você é elegível para obter uma resposta. Você não é; você não está, no fim das contas, pagando pelo serviço. Você irá ganhar uma resposta, se ganhar, fazendo uma pergunta substancial, interessante e instigante - uma que implicitamente contribua para a experiência da comunidade no lugar de mera e passivamente demandar conhecimento de outros.  
 
