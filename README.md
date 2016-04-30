@@ -70,7 +70,7 @@ Não nos faça perguntas. Nós iremos apenas ignorá-lo. Nós estamos aqui para 
 <a name="2" />
 # Introdução
 
-Em um undo de [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), o tipo de resposta que você obtém para suas perguntas técnicas depende muito da forma que você faz as perguntas como da dificuldade de desenvolver a resposta. Este guia irá ensiná-lo como fazer perguntas de uma forma que seja mais provável de obter uma resposta satisfatória.
+Em um mundo de [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), o tipo de resposta que você obtém para suas perguntas técnicas depende muito da forma que você faz as perguntas como da dificuldade de desenvolver a resposta. Este guia irá ensiná-lo como fazer perguntas de uma forma que seja mais provável de obter uma resposta satisfatória.
 
 Agora que projetos de open source (código aberto) se difundiram, você frequentemente pode obter boas respostas de usuários mais experientes do que de hackers. Isto é uma Coisa Boa; usuários tendem a ser apenas um pouco mais tolerantes ao tipo de falhas que iniciantes frequentemente cometem. Ainda, tratar usuários experientes como hackers, das formas que recomendamos aqui, irá geralmente ser mais eficiente para obter respostas úteis deles, também.  
 
