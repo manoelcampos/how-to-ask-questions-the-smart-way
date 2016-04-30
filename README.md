@@ -18,7 +18,7 @@
 
 - [Aviso Legal](#1)
 - [Introdução](#2)
-- [Antes de você perguntar](#3)
+- [Antes de perguntar](#3)
 - [Quando você perguntar](#4)
 	- [Escolha seu fórum cuidadosamente](#4.1)
 	- [Stack Overflow](#4.2)
@@ -93,33 +93,35 @@ Se você decide recorrer a nós por ajuda, você não quer ser um dos perdedores
 (Melhorias para este guia são bem vindas. Você pode enviar sugestões para <esr@thyrsus.com> ou <respond-auto@linuxmafia.com>. Observe, no entanto, que este documento não tem a intenção de ser um guia geral para [netiqueta](http://www.ietf.org/rfc/rfc1855.txt), e geralmente iremos rejeitar sugestões que não sejam especificamente relacionadas a elicitar respostas úteis em um fórum técnico.)
 
 <a name="3" />
-# Antes de você perguntar
+# Antes de perguntar
 
-Before asking a technical question by e-mail, or in a newsgroup, or on a website chat board, do the following:
+Antes de fazer uma pergunta técnica por e-mail, em um grupo ou em um website de chat, faça o seguinte:
 
-Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
+Tente encontrar a resposta pesquisando no arquivo do forum ou lista de email que você paneja postar a pergunta.
 
-- Try to find an answer by searching the Web.
-- Try to find an answer by reading the manual.
-- Try to find an answer by reading a FAQ.
-- Try to find an answer by inspection or experimentation.
-- Try to find an answer by asking a skilled friend.
+- Tente encontrar uma resposta pesquisando na Web.
+- Tente encontrar uma resposta lendo o manual do produto com o qual está tendo problemas.
+- Tente encontrar uma resposta lendo uma lista de FAQs (Frequent Asked Questions - Lista de Perguntas Frequentes)
+- Tente encontrar uma resposta por inspeção e experimentação.
+- Tente encontrar uma resposta perguntando um amigo qualificado.
 
-If you're a programmer, try to find an answer by reading the source code.
+Se você é um programador, tente encontrar uma resposta lendo o código fonte.
 
-When you ask your question, display the fact that you have done these things first; this will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers.
+Quando você fizer sua pergunta, mostre que de fato você tentou estas opções antes; isto ajudará a estabelecer que você não é uma esponja preguiçosa
+disperdiçando o tempo das pessoas. Melhor ainda, mostre que você tem aprendido por meio de tais tentativas. 
+Nós gostamos de responder questões de pessoas que demonstram poderem aprender a partir das respostas.
 
-Use tactics like doing a Google search on the text of whatever error message you get (searching [Google groups](http://groups.google.com) as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread.
+Use táticas como efetuar uma busca no Google com o texto de qualquer que seja a mensagem de erro que você está obtendo (procure tanto no [Google groups](http://groups.google.com) quanto em páginas Web). Isto pode levá-lo diretamente para a documentação de como corrigir o problema ou para um tópico em uma lista de e-mail com a resposta para a sua questão. Mesmo que você não tenha obtido uma resposta com isto, apenas dizendo "Eu procurei no Google pela seguinta frase mas não obtive nada que se mostrasse promissor" é algo aconselhável a fazer ao postar em uma lista de e-mail ou grupo solicitando ajuda, apenas para registrar que buscas não irão ajudar. Também irá ajudar se você direcionar outras pessoas com problemas similares para o seu tópico, incluindo link para a busca com os termos que esperançosamente apontarão para o tópico com o seu problema e possível solução. 
 
-Take your time. Do not expect to be able to solve a complicated problem with a few seconds of Googling. Read and understand the FAQs, sit back, relax and give the problem some thought before approaching experts. Trust us, they will be able to tell from your questions how much reading and thinking you did, and will be more willing to help if you come prepared. Don't instantly fire your whole arsenal of questions just because your first search turned up no answers (or too many).
+Leve seu tempo. Não espere ser capaz de resolver um problema complicado com alguns segundos de busca no Google. Leia e entenda as FAQs, sente, relaxe e refleta a respeito do problema antes de abordar especialistas. Confie em nós, eles serão capazes de deduzir a partir das suas perguntas, quanta leitura e raciocínio você exerceu, e irão estar mais dispostos a ajudar se você for preparado. Não dispare instantaneamente seu arsenal de perguntas apenas porque você sua primeira busca resultou em nenhuma resposta (ou respostas demais).
 
-Prepare your question. Think it through. Hasty-sounding questions get hasty answers, or none at all. The more you do to demonstrate that having put thought and effort into solving your problem before seeking help, the more likely you are to actually get help.
+Prepare sua pergunta. Pense sobre ela. Respostas que pareçam precipitadas obtêm respostas precipitadas, ou nenhuma sequer. Quanto mais você demonstra que raciocinou e se esforçou em resolver seu problema antes de procurar ajuda, mais probabilidade você tem de obter ajuda de fato.
 
-Beware of asking the wrong question. If you ask one that is based on faulty assumptions, J. Random Hacker is quite likely to reply with a uselessly literal answer while thinking “Stupid question...”, and hoping the experience of getting what you asked for rather than what you needed will teach you a lesson.
+Tenha cuidado ao fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um "J. Hacker" aleatório responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
 
-Never assume you are entitled to an answer. You are not; you aren't, after all, paying for the service. You will earn an answer, if you earn it, by asking a substantial, interesting, and thought-provoking question — one that implicitly contributes to the experience of the community rather than merely passively demanding knowledge from others.
+Nunca assuma que você é elegível para obter uma resposta. Você não é; você não está, no fim das contas, pagando pelo serviço. Você irá ganhar uma resposta, se ganhar, fazendo uma pergunta substancial, interessante e instigante - uma que implicitamente contribua para a experiência da comunidade no lugar de mera e passivamente demandar conhecimento de outros.  
 
-On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. “Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?” are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction.
+De outra lado, deixando claro que é capaz e deseja ajudar no processo de desenvolvimento da solução é um bom início. Perguntas como "Poderia alguém apontar um caminho?", "O que está faltando no meu exemplo?", e "Qual site eu deveria ter verificado?" são mais prováveis de obterem uma resposta do que "Por favor poste o procedimento exato que eu devo usar.", isto porque você está deixando claro que verdadeiramente deseja completar o processo somente se alguém colocá-lo na direção correta.
 
 <a name="4" />
 # Quando você perguntar
