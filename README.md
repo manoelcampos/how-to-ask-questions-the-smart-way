@@ -10,7 +10,6 @@
     
 - Rick Moen
 	- <respond-auto@linuxmafia.com>
-    
 
 [Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen](COPYRIGHT.md)
 
@@ -57,7 +56,6 @@
 
 <a name="1"></a>
 # Aviso Legal
-
 
 Muitos websites de projetos incluem links para este documento em suas seções de como obter ajuda. Isto é bom, é o uso que pretendemos - mas se você é um webmaster criando tal link para sua página de projeto, por favor mostre, perto do link, um aviso proeminente que nós não somos help desk para o seu projeto!
 
@@ -117,7 +115,7 @@ Leve seu tempo. Não espere ser capaz de resolver um problema complicado com alg
 
 Prepare sua pergunta. Pense sobre ela. Respostas que pareçam precipitadas obtêm respostas precipitadas, ou nenhuma sequer. Quanto mais você demonstra que raciocinou e se esforçou em resolver seu problema antes de procurar ajuda, mais probabilidade você tem de obter ajuda de fato.
 
-Tenha cuidado para não fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um ["J. Random Hacker"](https://en.wikipedia.org/wiki/J._Random_Hacker) responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
+Tenha cuidado para não fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um [hacker aleatório qualquer](https://en.wikipedia.org/wiki/J._Random_Hacker) responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
 
 Nunca assuma que você é elegível para obter uma resposta. Você não é; você não está, no fim das contas, pagando pelo serviço. Você irá ganhar uma resposta, se ganhar, fazendo uma pergunta substancial, interessante e instigante - uma que implicitamente contribua para a experiência da comunidade no lugar de mera e passivamente demandar conhecimento de outros.  
 
@@ -129,31 +127,41 @@ De outra lado, deixando claro que é capaz e deseja ajudar no processo de desenv
 <a name="4.1"></a>
 ## Escolha seu fórum cuidadosamente
 
-Be sensitive in choosing where you ask your question. You are likely to be ignored, or written off as a loser, if you:
+Tenha atenção ao escolher onde fazer sua pergunta. Você provavelmente será ignorado, ou rotulado como perdedor, se você:
 
-post your question to a forum where it's off topic
+- postar sua questão em um fórum onde ela não se enquada nos tópicos abordados
+- postar uma pergunta muito elementar em um fórum onde questões técnicas avançadas são esperadas, ou vice-versa
+- espalhar a mesma pergunta por muitos fórums diferentes
+- enviar um e-mail pessoal para alguém que não é nem um conhecido seu nem pessoalmente responsável por resolver seu problema
 
-post a very elementary question to a forum where advanced technical questions are expected, or vice-versa
+Hackers se livram de perguntas que sejam inapropriadamente direcionadas, a fim de tentar proteger seus canais de comunicação 
+de serem afogados por irrelevância. Você não quer que isto lhe aconteça.
 
-cross-post to too many different newsgroups
+O primeiro passo, portanto, é procurar o fórum correto. Novamente, [Google e outros métodos de busca na Web são seus amigos](http://www.giyf.com). 
+Use-os para encontrar a página web do projeto mais proximamente relacionado com o hardware ou software com o qual você está tendo dificuldades. Normalmente a página terá links para FAQs (Frequent Asked Questions - Lista de Perguntas Frequentes), e para a lista de e-mail do projeto e seus arquivos. Estas listas de e-mail são o destino final para procurar ajuda, se seus próprios esforços (incluindo a leitura das FAQs que você encontrou) não foram suficientes para chegar a uma solução. A página do projeto pode também descrever os procedimentos de como relatar erros (bugs), ou ter um link para tal documentação; se sim, siga tal procedimento.
 
-post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem
+Disparar um e-mail para uma pessoa ou fórum que você não é familiarizado é arriscado, para dizer o melhor. Por exemplo, não assuma que o autor de uma página informativa deseja ser seu consultor gratuitamente. Não faça suposições otimistas sobre se sua pergunta será bem vinda - se você não está certo, poste a em outro lugar, ou abstenha-se totalmente de postá-la.
 
-Hackers blow off questions that are inappropriately targeted in order to try to protect their communications channels from being drowned in irrelevance. You don't want this to happen to you.
+Ao selecionar um fórum Web, um newsgroup ou uma lista de e-mail, não confie apenas no nome de tais grupos; 
+procure por uma FAQ ou declaração para verificar se sua questão se enquadra nos tópicos do grupo.
+Leia algumas das mensagens anteriores antes de postar, de modo que você sinta como as coisas são feitas lá.
+De fato, antes de postar, é uma excelente ideia fazer uma busca no arquivo do fórum, newsgroup ou lista de e-mail 
+por palavras-chave relacionadas ao seu problema. Você pode encontrar uma resposta, e se não, isto lhe ajudará
+a formular melhor a pergunta.
 
-The first step, therefore, is to find the right forum. Again, Google and other Web-searching methods are your friend. Use them to find the project webpage most closely associated with the hardware or software giving you difficulties. Usually it will have links to a FAQ (Frequently Asked Questions) list, and to project mailing lists and their archives. These mailing lists are the final places to go for help, if your own efforts (including reading those FAQs you found) do not find you a solution. The project page may also describe a bug-reporting procedure, or have a link to one; if so, follow it.
+Não dé um tiro de espingarda em todos os canais de ajuda disponíveis de uma vez só, isto é como gritar e irritar as pessoas. 
+Avance por eles suavimente. 
 
-Shooting off an e-mail to a person or forum which you are not familiar with is risky at best. For example, do not assume that the author of an informative webpage wants to be your free consultant. Do not make optimistic guesses about whether your question will be welcome — if you're unsure, send it elsewhere, or refrain from sending it at all.
+Saiba o que o seu tópico é! Um dos erros clássicos é fazer perguntas sobre interfaces de programação do Unix ou Windows em um fórum 
+voltado para uma linguagem, biblioteca ou ferramenta portável para ambos sistemas. Se você não entende porque isto é uma
+mancada, é melhor você não fazer pergunta alguma até você entender isto.
 
-When selecting a Web forum, newsgroup or mailing list, don't trust the name by itself too far; look for a FAQ or charter to verify your question is on-topic. Read some of the back traffic before posting so you'll get a feel for how things are done there. In fact, it's a very good idea to do a keyword search for words relating to your problem on the newsgroup or mailing list archives before you post. It may find you an answer, and if not it will help you formulate a better question.
+Em geral, perguntas postadas em um fórum público bem selecionado tem mais possibilidades de obter respostas úteis do que
+perguntas equivalentes em um fórum privado. Existem múltiplas rasões para isto. Uma é simplesmente a quantidade de possíveis
+respondentes. Outra é o tamanho da audiência; hackers são mais prováveis de responder questões que ajudam muitas pessoas
+no lugar de questões que sirvam a apenas algumas. 
 
-Don't shotgun-blast all the available help channels at once, that's like yelling and irritates people. Step through them softly.
-
-Know what your topic is! One of the classic mistakes is asking questions about the Unix or Windows programming interface in a forum devoted to a language or library or tool portable across both. If you don't understand why this is a blunder, you'd be best off not asking any questions at all until you get it.
-
-In general, questions to a well-selected public forum are more likely to get useful answers than equivalent questions to a private one. There are multiple reasons for this. One is simply the size of the pool of potential respondents. Another is the size of the audience; hackers would rather answer questions that educate many people than questions serving only a few.
-
-Understandably, skilled hackers and authors of popular software are already receiving more than their fair share of mis-targeted messages. By adding to the flood, you could in extreme cases even be the straw that breaks the camel's back — quite a few times, contributors to popular projects have withdrawn their support because collateral damage in the form of useless e-mail traffic to their personal accounts became unbearable.
+Compreensivamente, hackers habilidosos e autores de softwares populares recebem mensagens mal direcionadas além da cota. Contribuir para esta enchente, em casos extremos, pode ser a gota d'água - algumas vezes, contribuidores de projetos populares tem retirado o suporte devido a danos colaterais insuportáveis na forma de tráfego inútil de e-mails para suas contas pessoais.
 
 <a name="4.2"></a>
 ## [Stack Overflow](http://stackoverflow.com)
