@@ -161,7 +161,7 @@ perguntas equivalentes em um fórum privado. Existem múltiplas rasões para ist
 respondentes. Outra é o tamanho da audiência; hackers são mais prováveis de responder questões que ajudam muitas pessoas
 no lugar de questões que sirvam a apenas algumas. 
 
-Compreensivamente, hackers habilidosos e autores de softwares populares recebem mensagens mal direcionadas além da cota. Contribuir para esta enchente, em casos extremos, pode ser a gota d'água - algumas vezes, contribuidores de projetos populares tem retirado o suporte devido a danos colaterais insuportáveis na forma de tráfego inútil de e-mails para suas contas pessoais.
+Compreensivamente, hackers habilidosos e autores de softwares populares já recebem mensagens mal direcionadas além da conta. Contribuir para esta enchente, em casos extremos, pode ser a gota d'água - algumas vezes, contribuidores de projetos populares tem retirado o suporte devido a danos colaterais insuportáveis na forma de tráfego inútil de e-mails para suas contas pessoais.
 
 <a name="4.2"></a>
 ## [Stack Overflow](http://stackoverflow.com)
