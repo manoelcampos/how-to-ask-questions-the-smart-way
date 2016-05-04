@@ -150,7 +150,7 @@ por palavras-chave relacionadas ao seu problema. Você pode encontrar uma respos
 a formular melhor a pergunta.
 
 Não dé um tiro de espingarda em todos os canais de ajuda disponíveis de uma vez só, isto é como gritar e irritar as pessoas. 
-Avance por eles suavimente. 
+Avance por eles suavemente. 
 
 Saiba o que o seu tópico é! Um dos erros clássicos é fazer perguntas sobre interfaces de programação do Unix ou Windows em um fórum 
 voltado para uma linguagem, biblioteca ou ferramenta portável para ambos sistemas. Se você não entende porque isto é uma
