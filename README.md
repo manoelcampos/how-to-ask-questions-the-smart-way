@@ -166,23 +166,28 @@ Compreensivamente, hackers habilidosos e autores de softwares populares já rece
 <a name="4.2"></a>
 ## [Stack Overflow](http://stackoverflow.com)
 
-Search, then ask on Stack Exchange
+Procure, então pergunta no Stack Exchange.
 
-In recent years, the Stack Exchange community of sites has emerged as a major resource for answering technical and other questions and is even the preferred forum for many open-source projects.
+Em anos recentes, a comunidade de sites Stack Exchange tem emergido como o maior recurso para responder questões técnicas ou não e é até mesmo o fórum preferido para muitos projetos open-source.
 
-Start with a Google search before looking at Stack Exchange; Google indexes it in real time. There's a very good chance someone has already asked a similar question, and the Stack Exchange sites are often near the top of the search results. If you didn't find anything through Google, search again on the specific site most relevant to your question (see below). Searching with tags can help narrow down the results.
+Inicia com uma busca no Google antes de procurar no Stack Exchange; o Google indexa o site em tempo real. Há uma chance muito boa de alguém
+já ter feito uma pergunta similar, e os sites Stack Exchange estão frequentemente próximos dos topo dos resultados de busca. 
+Se você não encontrou nada por meio do Google, procure novamente no site específico mais relevante para sua questão (veja abaixo). 
+Procurar usando tags providas pelo site, pode ajudar a reduzir os resultados.
 
-If you still didn't find anything, post your question on the one site where it's most on-topic. Use the formatting tools, especially for code, and add tags that are related to the substance of your question (particularly the name of the programming language, operating system, or library you're having trouble with). If a commenter asks you for more information, edit your main post to include it. If any answer is helpful, click the up arrow to upvote it; if an answer gives a solution to your problem, click the check under the voting arrows to accept it as correct.
+Se você ainda não encontrou nada, poste sua pergunta no site onde ela seja mais relacionada com os tópicos abordados.
+Use as ferramentas de formatação, especialmente para código, e adicione tags que sejam relacionadas ao assunto da sua pergunta
+(particularmente o nome da linguagem de programação, sistema operacional ou biblioteca com o a qual você está tendo problemas).
+Se alguém lhe pede mais informações, edite seu post principal para incluí-la. Se qualquer resposta é útil, 
+clique na seta pra cima para adicionar um voto à resposta; se a resposta provê uma solução para seu problema,
+clique na imagem de "check" abaixo das setas de votação para aceitá-las como correta.
 
-Stack Exchange has grown to [over 100 sites](http://stackexchange.com/sites), but here are the most likely candidates:
+Stack Exchange tem crescido para [mais de 100 sites](http://stackexchange.com/sites), mas aqui estão os candidatos mais prováveis:
 
-Super User is for questions about general-purpose computing. If your question isn't about code or programs that you talk to only over a network connection, it probably goes here.
-
-Stack Overflow is for questions about programming.
-
-Server Fault is for questions about server and network administration.
-
-Several projects have their own specific sites, including Android, Ubuntu, TeX/LaTeX, and SharePoint. Check the Stack Exchange site for an up-to-date list.
+- [Super User](http://superuser.com) é para questões computação de propósito geral. Se sua questão não é sobre código ou programas com os quais você interage apenas por meio de uma conexão de rede, ela provavelmente vai aqui.
+- [Stack Overflow](http://stackoverflow.com) é para questão sobre programação.
+- [Server Fault](http://serverfault.com) é para questões sobre servidores e administração de redes.
+- Muitos projetos tem seus próprios sites específicos, incluindo [Android](http://android.stackexchange.com), [Ubuntu](http://askubuntu.com), [TeX/LaTeX](http://tex.stackexchange.com), and [Microsoft SharePoint](http://sharepoint.stackexchange.com). Acesse o [Stack Exchange](http://stackexchange.com) para obter uma lista atualizada.
 
 <a name="4.3"></a>
 ## Web e fórums IRC
