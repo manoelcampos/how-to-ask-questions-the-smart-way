@@ -21,7 +21,7 @@
 - [Quando você perguntar](#4)
 	- [Escolha seu fórum cuidadosamente](#4.1)
 	- [Stack Overflow](#4.2)
-	- [Web e fórums IRC](#4.3)
+	- [Fórums Web e IRC](#4.3)
 	- [Como um segundo passo, use listas de email de projeto](#4.4)
 	- [Use cabeçalhos de assunto significativos e específicos](#4.5) 
 	- [Torne fácil para responder](#4.6)
@@ -190,17 +190,18 @@ Stack Exchange tem crescido para [mais de 100 sites](http://stackexchange.com/si
 - Muitos projetos tem seus próprios sites específicos, incluindo [Android](http://android.stackexchange.com), [Ubuntu](http://askubuntu.com), [TeX/LaTeX](http://tex.stackexchange.com), and [Microsoft SharePoint](http://sharepoint.stackexchange.com). Acesse o [Stack Exchange](http://stackexchange.com) para obter uma lista atualizada.
 
 <a name="4.3"></a>
-## Web e fórums IRC
+## Fórums Web e IRC
 
-Your local user group, or your Linux distribution, may advertise a Web forum or IRC channel where newbies can get help. (In non-English-speaking countries newbie forums are still more likely to be mailing lists.) These are good first places to ask, especially if you think you may have tripped over a relatively simple or common problem. An advertised IRC channel is an open invitation to ask questions there and often get answers in real time.
+Seu grupo de usuários local, ou sua distribuição Linux, podem fazer propaganda em um fórum Web ou canal IRC onde iniciantes podem obter ajuda
+(em países que não falam lingua inglesa, fóruns de iniciantes são ainda mais prováveis de serem listas de e-mail). Estes são primeiros lugares bons para perguntar, especialmente se você pensa possa ter tropeçado em um problema comum e relativamente simples. Um canal IRC promovido por propaganda é um convite aberto a fazer perguntas e frequentemente obter respostas em tempo real.
 
-In fact, if you got the program that is giving you problems from a Linux distribution (as is common today), it may be better to ask in the distro's forum/list before trying the program's project forum/list. The project's hackers may just say, “use our build”.
+De fato, se você obteve o programa que está lhe causando problema a partir de uma distribuição Linux (como é comum atualmente), é melhor perguntar no(a)fórum/lista da distribuição antes de tentar o(a) fórum/lista do projeto do programa. Os hackers do projeto podem apenas dizer "use nossa versão". 
 
-Before posting to any Web forum, check if it has a Search feature. If it does, try a couple of keyword searches for something like your problem; it just might help. If you did a general Web search before (as you should have), search the forum anyway; your Web-wide search engine might not have all of this forum indexed recently.
+Antes de postar em qualquer fórum Web, verifique se ele tem um recurso de busca. Se tem, tente algumas buscas por palavras-chave relacionadas ao seu problema; isto pode realmente ajudar. Se você fez uma busca geral na Web antes (como deveria ter feito), busca no fórum de qualquer forma; o motor de busca Web que usou pode não ter indexado todo o conteúdo do fórum recentemente.  
 
-There is an increasing tendency for projects to do user support over a Web forum or IRC channel, with e-mail reserved more for development traffic. So look for those channels first when seeking project-specific help.
+Existe uma tendência crescente de projetos proverem suporte a usuários por meio de um fórum Web ou canal IRC, com e-mail reservado mais para tráfego de desenvolvimento. Então, olhe estes canais primeiros quando estiver procurando ajuda para projetos específicos. 
 
-In IRC, it's probably best not to dump a long problem description on the channel first thing; some people interpret this as channel-flooding. Best to utter a one-line problem description in a way pitched to start a conversation on the channel.
+Em IRC, é provavelmente melhor não iniciar jogando uma longa descrição de um problema no canal; algumas pessoas interpretam isto como "inundação do canal". É melhor proferir uma descrição de uma linha para o problema, como uma forma de puxar conversa.
 
 <a name="4.4"></a>
 ## Como um segundo passo, use listas de email de projeto
