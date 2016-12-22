@@ -206,21 +206,21 @@ Em IRC, é provavelmente melhor não iniciar jogando uma longa descrição de um
 <a name="4.4"></a>
 ## Como um segundo passo, use listas de email de projeto
 
-When a project has a development mailing list, write to the mailing list, not to individual developers, even if you believe you know who can best answer your question. Check the documentation of the project and its homepage for the address of a project mailing list, and use it. There are several good reasons for this policy:
+Quando um projeto tem uma lista de email para desenvolvedores, escreve para tal lista, não pra desenvolvedores individuais, mesmo se você acredita que você sabe quem pode melhor responder sua pergunta. Procure na documentação do projeto e em sua homepage pelo endereço da lista de email, e use-a. Existem muitas boas rasões para este política:
 
-Any question good enough to be asked of one developer will also be of value to the whole group. Contrariwise, if you suspect your question is too dumb for a mailing list, it's not an excuse to harass individual developers.
+Qualquer pergunta boa o suficiente para ser feita a um desenvolvedor específico também será válida para todo o grupo. Contrariamente, se você suspeita que sua pergunta é muito tola para uma lista de email, isto não é desculpa para molestar desenvolvedores individualmente.
 
-Asking questions on the list distributes load among developers. The individual developer (especially if he's the project leader) may be too busy to answer your questions.
+Fazendo perguntas na lista distribui a carga entre os desenvolvedores. Um determinado desenvolvedor (especialmente se ele é o líder do projeto) pode estar muito ocupado para responder suas perguntas.
 
-Most mailing lists are archived and the archives are indexed by search engines. If you ask your question on-list and it is answered, a future querent could find your question and the answer on the Web instead of asking it again.
+A maioria das listas de email são arquivadas e os arquivos são indexados pelos motores de busca. Se você fizer sua pergunta na lista e ela for respondida, outra pessoa pode encontrar sua pergunta e a resposta na Web, em vez de perguntar novamente.
 
-If certain questions are seen to be asked often, developers can use that information to improve the documentation or the software itself to be less confusing. But if those questions are asked in private, nobody has the complete picture of what questions are asked most often.
+Se certas perguntas parecem ser feitas frequentemente, desenvolvedores podem use esta informação para melhorar a documentação ou o próprio software para que ele se torne menos confuso. Mas se estas questões são levantadas de modo privado, ninguém tem uma visão completa de quais perguntas são feitas com mais frequência.
 
-If a project has both a “user” and a “developer” (or “hacker”) mailing list or Web forum, and you are not hacking on the code, ask in the “user” list/forum. Do not assume that you will be welcome on the developer list, where they're likely to experience your question as noise disrupting their developer traffic.
+Se o projeto tem tanto uma lista de "usuários" e uma de "desenvolvedores" (ou "hackers") ou um fórum Web e você você não está hackiando o código, pergunte na lista/fórum de "usuários". Não assuma que você irá ser bem vindo na lista de desenvolvedores, onde eles provavelmente vão considerar sua pergunta como ruído quebrando o tráfego de desenvolvimento.
 
-However, if you are sure your question is non-trivial, and you get no answer in the “user” list/forum for several days, try the “developer” one. You would be well advised to lurk there for a few daysor at least review the last few days of archived messages, to learn the local folkways before posting (actually this is good advice on any private or semi-private list).
+No entanto, se você está certo que sua pergunta não é trivial, e você não obteve respostas na lista/fórum de "usuários" após vários dias, tente a lista de "desenvolvedores". É aconselhável você espreitar lá por alguns dias ou pelo menos verificar os últimos dias de mensagens arquivadas, para se familiarizar com os costumes dos integrantes antes de postar (de fato este é um bom conselho em qualquer lista privada ou semi-privada).
 
-If you cannot find a project's mailing list address, but only see the address of the maintainer of the project, go ahead and write to the maintainer. But even in that case, don't assume that the mailing list doesn't exist. Mention in your e-mail that you tried and could not find the appropriate mailing list. Also mention that you don't object to having your message forwarded to other people. (Many people believe that private e-mail should remain private, even if there is nothing secret in it. By allowing your message to be forwarded you give your correspondent a choice about how to handle your e-mail.)
+Se você não encontrou uma lista de email do projeto, mas encontrou apenas o endereço do mantenedor do projeto, vá em frente e escreve para ele. Mas mesmo neste caso, não assuma que a lista de email não existe. Mencione no seu e-mail que você procurou e não encontrou uma lista de e-mail. Também mencione que você não não se impõe em sua mensagem ser encaminhada para outras pessoas. (Muitas pessoas acreditam que e-mail privado deveria se manter privado, mesmo que não exista nada secreto nele. Permitindo que sua mensagem seja encaminhada, você dá ao seu correspondente uma escolha sobre como lidar com ela.)
 
 <a name="4.5"></a>
 ## Use cabeçalhos de assunto significativos e específicos
