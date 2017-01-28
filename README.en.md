@@ -1,7 +1,7 @@
-# Como Fazer Perguntas de Maneira Inteligente
+# How To Ask Questions The Smart Way
 
-Tradução baseada na [revisão 3.10 da versão original em inglês de 21 Maio de 2014](http://www.catb.org/~esr/faqs/smart-questions.html). 
-A fork from the original English version can be found [here](README.en.md).
+[This is a fork of the original 3.10 version of May, 21 of 2014](http://www.catb.org/~esr/faqs/smart-questions.html)
+
 
 - Eric Steven Raymond
 	- [Thyrsus Enterprises](http://www.catb.org/~esr/)
@@ -9,238 +9,232 @@ A fork from the original English version can be found [here](README.en.md).
     
 - Rick Moen
 	- <respond-auto@linuxmafia.com>
+    
 
 [Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen](COPYRIGHT.md)
 
-# Sumário
+## Summary
 
-- [Aviso Legal](#1)
-- [Introdução](#2)
-- [Antes de perguntar](#3)
-- [Quando você perguntar](#4)
-	- [Escolha seu fórum cuidadosamente](#4.1)
+- [Translations](#0)
+- [Disclaimer](#1)
+- [Introduction](#2)
+- [Before You Ask](#3)
+- [When You Ask](#4)
+	- [Choose your forum carefully](#4.1)
 	- [Stack Overflow](#4.2)
-	- [Fórums Web e IRC](#4.3)
-	- [Como um segundo passo, use listas de e-mail de projeto](#4.4)
-	- [Use cabeçalhos de assunto significativos e específicos](#4.5) 
-	- [Torne fácil para responder](#4.6)
-	- [Escreva em linguagem clara, gramatica e ortograficamente correta](#4.7) 
-	- [Envie questões em formatos acessíveis e padrões](#4.8)
-	- [Seja preciso e informativo sobre o seu problema](#4.9)
-	- [Volume não é precisão](#4.10)
-	- [Não corra para declarar que você encontrou um bug](#4.11)
-	- [Bajulação não substitui você de fazer seu trabalho de casa](#4.12)
-	- [Descreva os sintomas do problema, não suas suposições](#4.13)
-	- [Descreva os sintomas do seu problema em uma ordem cronológica](#4.14)
-	- [Descreva o objetivo não o passo](#4.15)
-	- [Não peça às pessoas para responderem por e-mail privado](#4.16)
-	- [Seja explícito sobre sua questão](#4.17)
-	- [Quando estiver perguntando sobre código](#4.18)
-	- [Não poste perguntas sobre trabalho de casa](#4.19)
-	- [Elimine perguntas sem sentido](#4.20)
-	- [Não marque sua questão como “Urgente”, até mesmo se ela é pra você](#4.21)
-	- [Cortesia nunca machuca, e algumas vezes ajuda](#4.22)
-	- [Prossiga com uma breve nota sobre a solução](#4.23)
-- [Como interpretar respostas](#5)
-	- [RTFM e STFW: Como saber que você está seriamente ferrado](#5.1)
-	- [Se você não entendeu...](#5.2)
-	- [Lidando com grosseria](#5.3)
-- [Não reagindo como um perdedor](#6)
-- [Perguntas que não devem ser feitas](#7)
-- [Perguntas boas e ruins](#8)
+	- [Web and IRC forums](#4.3)
+	- [As a second step, use project mailing lists](#4.4)
+	- [Use meaningful, specific subject headers](#4.5) 
+	- [Make it easy to reply](#4.6)
+	- [Write in clear, grammatical, correctly-spelled language](#4.7) 
+	- [Send questions in accessible, standard formats](#4.8)
+	- [Be precise and informative about your problem](#4.9)
+	- [Volume is not precision](#4.10)
+	- [Don't rush to claim that you have found a bug](#4.11)
+	- [Grovelling is not a substitute for doing your homework](#4.12)
+	- [Describe the problem's symptoms, not your guesses](#4.13)
+	- [Describe your problem's symptoms in chronological order](#4.14)
+	- [Describe the goal, not the step](#4.15)
+	- [Don't ask people to reply by private e-mail](#4.16)
+	- [Be explicit about your question](#4.17)
+	- [When asking about code](#4.18)
+	- [Don't post homework questions](#4.19)
+	- [Prune pointless queries](#4.20)
+	- [Don't flag your question as “Urgent”, even if it is for you](#4.21)
+	- [Courtesy never hurts, and sometimes helps](#4.22)
+	- [Follow up with a brief note on the solution](#4.23)
+- [How To Interpret Answers](#5)
+	- [RTFM and STFW: How To Tell You've Seriously Screwed Up](#5.1)
+	- [If you don't understand...](#5.2)
+	- [Dealing with rudeness](#5.3)
+- [On Not Reacting Like A Loser](#6)
+- [Questions Not To Ask](#7)
+- [Good and Bad Questions](#8)
 - [Se você não consegue obter uma resposta](#9)
-- [Como responder perguntas de uma forma útil](#10)
-- [Recursos relacionados](#11)
-- [Agradecimentos](#12)
+- [How To Answer Questions in a Helpful Way](#10)
+- [Related Resources](#11)
+- [Acknowledgements](#12)
+
+<a name="0"></a>
+
+# Translations
+
+Danish Bahasa Indonesian Belorussian Bulgarian Brazilian-Portuguese Bulgarian Chinese (Traditional) Croatian Dutch French Georgian German Greek Hindi Irish Gaelic Japanese Lithuanian Polish Portuguese Romanian Russian Serbian Spanish Thai Ukrainian If you want to copy, mirror, translate, or excerpt this document, please see my copying policy.
 
 <a name="1"></a>
 
-# Aviso Legal
+# Disclaimer
 
-Muitos websites de projetos incluem links para este documento em suas seções de como obter ajuda. Isto é bom, é o uso que pretendemos - mas se você é um webmaster criando tal link para sua página de projeto, por favor mostre, perto do link, um aviso proeminente que nós não somos help desk para o seu projeto!
+Many project websites link to this document in their sections on how to get help. That's fine, it's the use we intended — but if you are a webmaster creating such a link for your project page, please display prominently near the link notice that we are not a help desk for your project!
 
-Nós temos aprendido da maneira difícil que, sem tal aviso, nós repetidamente iremos ser importunados por idiotas que acham que por nós termos publicado este documento, é nosso trabalho resolver todos os problemas técnicos do mundo.
+We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems.
 
-Se você está lendo este documento porque precisa de ajuda, e tiver a impressão de que a obterá diretamente dos autores deste documento, você é um dos idiotas que estamos falando a respeito.
-
-Não nos faça perguntas. Nós iremos apenas ignorá-lo. Nós estamos aqui para mostrá-lo como obter ajuda que de fato conhecem o software ou hardware com o qual você está lidando, mas 99.9% das vezes não seremos nós. A menos que você saiba com certeza que um dos autores deste documento é um expert naquilo com o qual você está lidando, deixe nos em paz e todos ficarão felizes. 
+If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, you are one of the idiots we are talking about. Don't ask us questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. Unless you know for certain that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier.
 
 <a name="2"></a>
 
-# Introdução
+# Introduction
 
-Em um mundo de [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), o tipo de resposta que você obtém para suas perguntas técnicas depende muito da forma que você faz as perguntas como da dificuldade de desenvolver a resposta. Este guia irá ensiná-lo como fazer perguntas de uma forma que seja mais provável de obter uma resposta satisfatória.
+In the world of hackers, the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
 
-Agora que projetos de open source (código aberto) se difundiram, você frequentemente pode obter boas respostas de usuários mais experientes do que de hackers. Isto é uma Coisa Boa; usuários tendem a ser apenas um pouco mais tolerantes ao tipo de falhas que iniciantes frequentemente cometem. Ainda, tratar usuários experientes como hackers, das formas que recomendamos aqui, irá geralmente ser mais eficiente para obter respostas úteis deles, também.  
+Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too.
 
-A primeira coisa a entender é que hackers realmente gostam de problemas difíceis e perguntas boas e instigantes sobre eles. Se não gostassemos, não estaríamos aqui. Se você nos fornece uma questão interessante para mastigar, seremos gratos a você; boas perguntas são um estímulo e uma dádiva. Boas perguntas nos ajudam a desenvolver nosso entendimento, e frequentemente revelam problemas que podemos não ter notado ou pensado a respeito de outra maneira. Entre hackers, "Boa pergunta!" é um cumprimento forte e sincero.
+The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them. If we didn't, we wouldn't be here. If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment.
 
-Apesar disto, hackers tem uma reputação de responder questões simples de uma maneira que parece hostil e arrogante. Algumas vezes parece que somos automaticamente rudes com iniciantes e ignorantes. Mas isto não é realmente verdade. 
+Despite this, hackers have a reputation for meeting simple questions with what looks like hostility or arrogance. It sometimes looks like we're reflexively rude to newbies and the ignorant. But this isn't really true.
 
-O que somos, indescupavelmente, é hostis com pessoas que parecem não querer pensar ou fazer seu próprio trabalho de casa antes de fazer perguntas. Pessoas como estas são sugadoras de tempo - elas tomam sem dar nada de volta, e disperdiçam o tempo que poderíamos ter gasto em outras questões mais interessantes ou outra pessoa que mais valha uma resposta. Nós chamamos pessoas assim de "losers (perdedores)" (e por razões históricas, algumas vezes soletramos "lusers"). 
+What we are, unapologetically, is hostile to people who seem to be unwilling to think or to do their own homework before asking questions. People like that are time sinks — they take without giving back, and they waste time we could have spent on another question more interesting and another person more worthy of an answer. We call people like this “losers” (and for historical reasons we sometimes spell it “lusers”).
 
-Nós percebemos que existem muitas pessoas que apenas querem usar o software que desenvolvemos, e que não tem qualquer interesse em aprender detalhes técnicos. Para estes pessoas, um computador é meramente uma ferramenta, um emio para um fim; elas tem coisas mais importantes a fazer e vidas para viver. Nós reconhecemos isto, e não esperamos que cada um se interesse pelas questões técnicas que nos fascinam. No entanto, nosso estilo de responder perguntas é adaptado para pessoas que tem tal interesse e desejam ser participantes ativos na resolução de problemas. Isto não vai mudar. Nem deveria; se mudar, poderíamos nos tornar menos efetivos nas coisas que fazemos de melhor. 
+We realize that there are many people who just want to use the software we write, and who have no interest in learning technical details. For most people, a computer is merely a tool, a means to an end; they have more important things to do and lives to live. We acknowledge that, and don't expect everyone to take an interest in the technical matters that fascinate us. Nevertheless, our style of answering questions is tuned for people who do take such an interest and are willing to be active participants in problem-solving. That's not going to change. Nor should it; if it did, we would become less effective at the things we do best.
 
-Nó somos (amplamente) voluntários. Nós tiramos tempo de nossas vidas ocupadas para responder perguntas, e as vezes nós somos sobrecarregados com elas. Então, nós fazemos um filtro impiedoso. Em particular, nós descartamos questões de pessoas que parecem ser perdedores, a fim de gastar nosso tempo de responder perguntas mais eficientemente, com vencedores.
+We're (largely) volunteers. We take time out of busy lives to answer questions, and at times we're overwhelmed with them. So we filter ruthlessly. In particular, we throw away questions from people who appear to be losers in order to spend our question-answering time more efficiently, on winners.
 
-Se você acha esta atidude desagradável, condescendente, ou arrogante, verifique nossas premissas. Não estamos pedindo para você se ajoelhar perante nós - de fato, a maioria de nós não poderia amar nada mais do que lidar com você como um igual e dar lhe boas vindas à nossa cultura, se você dedicar o esforço necessário para tornar isto possível. Mas é simplesmente ineficiente para nós tentar ajudar pessoas que não ajudam a si mesmas. Não há problema em ser ignorante; mas não vale bancar o estúpido.
+If you find this attitude obnoxious, condescending, or arrogant, check your assumptions. We're not asking you to genuflect to us — in fact, most of us would love nothing more than to deal with you as an equal and welcome you into our culture, if you put in the effort required to make that possible. But it's simply not efficient for us to try to help people who are not willing to help themselves. It's OK to be ignorant; it's not OK to play stupid.
 
-Então, enquanto não é necessário já ser tecnicamente competente para obter nossa atenção, é necessário demonstrar o tipo de atitude que leva à competência - estar alerta, pensativo, observador, desejando ser um parceiro ativo no desenvolvimento de uma solução. Se você não pode viver com este tipo de discriminação, sugerimos que pague alguém por um contrato de suporte comercial, ao invés de pedir a hackers que pessoalmente lhe doem ajuda.  
+So, while it isn't necessary to already be technically competent to get attention from us, it is necessary to demonstrate the kind of attitude that leads to competence — alert, thoughtful, observant, willing to be an active partner in developing a solution. If you can't live with this sort of discrimination, we suggest you pay somebody for a commercial support contract instead of asking hackers to personally donate help to you.
 
-Se você decide recorrer a nós por ajuda, você não quer ser um dos perdedores. Você não quer ao menos parecer como um. A melhor forma de obter uma resposta rápida e adequada é perguntar como uma pessoa inteligente, confiante e que tenha pistas sobre a questão, precisando apenas de ajuda em um problema particular.
+If you decide to come to us for help, you don't want to be one of the losers. You don't want to seem like one, either. The best way to get a rapid and responsive answer is to ask it like a person with smarts, confidence, and clues who just happens to need help on one particular problem.
 
-(Melhorias para este guia são bem vindas. Você pode enviar sugestões para <esr@thyrsus.com> ou <respond-auto@linuxmafia.com>. Observe, no entanto, que este documento não tem a intenção de ser um guia geral para [netiqueta](http://www.ietf.org/rfc/rfc1855.txt), e geralmente iremos rejeitar sugestões que não sejam especificamente relacionadas a elicitar respostas úteis em um fórum técnico.)
+(Improvements to this guide are welcome. You can mail suggestions to esr@thyrsus.com or respond-auto@linuxmafia.com. Note however that this document is not intended to be a general guide to netiquette, and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.)
 
 <a name="3"></a>
 
-# Antes de perguntar
+# Before You Ask
 
-Antes de fazer uma pergunta técnica por e-mail, em um grupo ou em um website de chat, faça o seguinte:
+Before asking a technical question by e-mail, or in a newsgroup, or on a website chat board, do the following:
 
-Tente encontrar a resposta pesquisando no arquivo do forum ou lista de e-mail que você paneja postar a pergunta.
+Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
 
-- Tente encontrar uma resposta pesquisando na Web.
-- Tente encontrar uma resposta lendo o manual do produto com o qual está tendo problemas.
-- Tente encontrar uma resposta lendo uma lista de FAQs (Frequent Asked Questions - Lista de Perguntas Frequentes)
-- Tente encontrar uma resposta por inspeção e experimentação.
-- Tente encontrar uma resposta perguntando um amigo qualificado.
+Try to find an answer by searching the Web.
 
-Se você é um programador, tente encontrar uma resposta lendo o código fonte.
+Try to find an answer by reading the manual.
 
-Quando você fizer sua pergunta, mostre que de fato você tentou estas opções antes; isto ajudará a estabelecer que você não é uma esponja preguiçosa
-disperdiçando o tempo das pessoas. Melhor ainda, mostre que você tem aprendido por meio de tais tentativas. 
-Nós gostamos de responder questões de pessoas que demonstram poderem aprender a partir das respostas.
+Try to find an answer by reading a FAQ.
 
-Use táticas como efetuar uma busca no Google com o texto de qualquer que seja a mensagem de erro que você está obtendo (procure tanto no [Google groups](http://groups.google.com) quanto em páginas Web). Isto pode levá-lo diretamente para a documentação de como corrigir o problema ou para um tópico em uma lista de e-mail com a resposta para a sua questão. Mesmo que você não tenha obtido uma resposta com isto, apenas dizendo "Eu procurei no Google pela seguinta frase mas não obtive nada que se mostrasse promissor" é algo aconselhável a fazer ao postar em uma lista de e-mail ou grupo solicitando ajuda, apenas para registrar que buscas não irão ajudar. Também irá ajudar se você direcionar outras pessoas com problemas similares para o seu tópico, incluindo link para a busca com os termos que esperançosamente apontarão para o tópico com o seu problema e possível solução. 
+Try to find an answer by inspection or experimentation.
 
-Leve seu tempo. Não espere ser capaz de resolver um problema complicado com alguns segundos de busca no Google. Leia e entenda as FAQs, sente, relaxe e refleta a respeito do problema antes de abordar especialistas. Confie em nós, eles serão capazes de deduzir a partir das suas perguntas, quanta leitura e raciocínio você exerceu, e irão estar mais dispostos a ajudar se você for preparado. Não dispare instantaneamente seu arsenal de perguntas apenas porque você sua primeira busca resultou em nenhuma resposta (ou respostas demais).
+Try to find an answer by asking a skilled friend.
 
-Prepare sua pergunta. Pense sobre ela. Respostas que pareçam precipitadas obtêm respostas precipitadas, ou nenhuma sequer. Quanto mais você demonstra que raciocinou e se esforçou em resolver seu problema antes de procurar ajuda, mais probabilidade você tem de obter ajuda de fato.
+If you're a programmer, try to find an answer by reading the source code.
 
-Tenha cuidado para não fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições equivocadas, é bastante provável que um [hacker aleatório qualquer](https://en.wikipedia.org/wiki/J._Random_Hacker) responda com uma resposta literal inútil enquanto pensa "Que pergunta estúpida...", e esperando que a experiência de obter o que você pediu e não o que você precisa vai ensiná-lo uma lição.
+When you ask your question, display the fact that you have done these things first; this will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have learned from doing these things. We like answering questions for people who have demonstrated they can learn from the answers.
 
-Nunca assuma que você é elegível para obter uma resposta. Você não é; você não está, no fim das contas, pagando pelo serviço. Você irá ganhar uma resposta, se ganhar, fazendo uma pergunta substancial, interessante e instigante - uma que implicitamente contribua para a experiência da comunidade no lugar de mera e passivamente demandar conhecimento de outros.  
+Use tactics like doing a Google search on the text of whatever error message you get (searching Google groups as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread.
 
-De outra lado, deixando claro que é capaz e deseja ajudar no processo de desenvolvimento da solução é um bom início. Perguntas como "Poderia alguém apontar um caminho?", "O que está faltando no meu exemplo?", e "Qual site eu deveria ter verificado?" são mais prováveis de obterem uma resposta do que "Por favor poste o procedimento exato que eu devo usar.", isto porque você está deixando claro que verdadeiramente deseja completar o processo somente se alguém colocá-lo na direção correta.
+Take your time. Do not expect to be able to solve a complicated problem with a few seconds of Googling. Read and understand the FAQs, sit back, relax and give the problem some thought before approaching experts. Trust us, they will be able to tell from your questions how much reading and thinking you did, and will be more willing to help if you come prepared. Don't instantly fire your whole arsenal of questions just because your first search turned up no answers (or too many).
+
+Prepare your question. Think it through. Hasty-sounding questions get hasty answers, or none at all. The more you do to demonstrate that having put thought and effort into solving your problem before seeking help, the more likely you are to actually get help.
+
+Beware of asking the wrong question. If you ask one that is based on faulty assumptions, J. Random Hacker is quite likely to reply with a uselessly literal answer while thinking “Stupid question...”, and hoping the experience of getting what you asked for rather than what you needed will teach you a lesson.
+
+Never assume you are entitled to an answer. You are not; you aren't, after all, paying for the service. You will earn an answer, if you earn it, by asking a substantial, interesting, and thought-provoking question — one that implicitly contributes to the experience of the community rather than merely passively demanding knowledge from others.
+
+On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. “Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?” are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction.
 
 <a name="4"></a>
 
-# Quando você perguntar
+# When You Ask
 
 <a name="4.1"></a>
 
-## Escolha seu fórum cuidadosamente
+## Choose your forum carefully
 
-Tenha atenção ao escolher onde fazer sua pergunta. Você provavelmente será ignorado, ou rotulado como perdedor, se você:
+Be sensitive in choosing where you ask your question. You are likely to be ignored, or written off as a loser, if you:
 
-- postar sua questão em um fórum onde ela não se enquada nos tópicos abordados
-- postar uma pergunta muito elementar em um fórum onde questões técnicas avançadas são esperadas, ou vice-versa
-- espalhar a mesma pergunta por muitos fórums diferentes
-- enviar um e-mail pessoal para alguém que não é nem um conhecido seu nem pessoalmente responsável por resolver seu problema
+post your question to a forum where it's off topic
 
-Hackers se livram de perguntas que sejam inapropriadamente direcionadas, a fim de tentar proteger seus canais de comunicação 
-de serem afogados por irrelevância. Você não quer que isto lhe aconteça.
+post a very elementary question to a forum where advanced technical questions are expected, or vice-versa
 
-O primeiro passo, portanto, é procurar o fórum correto. Novamente, [Google e outros métodos de busca na Web são seus amigos](http://www.giyf.com). 
-Use-os para encontrar a página web do projeto mais proximamente relacionado com o hardware ou software com o qual você está tendo dificuldades. Normalmente a página terá links para FAQs (Frequent Asked Questions - Lista de Perguntas Frequentes), e para a lista de e-mail do projeto e seus arquivos. Estas listas de e-mail são o destino final para procurar ajuda, se seus próprios esforços (incluindo a leitura das FAQs que você encontrou) não foram suficientes para chegar a uma solução. A página do projeto pode também descrever os procedimentos de como relatar erros (bugs), ou ter um link para tal documentação; se sim, siga tal procedimento.
+cross-post to too many different newsgroups
 
-Disparar um e-mail para uma pessoa ou fórum que você não é familiarizado é arriscado, para dizer o melhor. Por exemplo, não assuma que o autor de uma página informativa deseja ser seu consultor gratuitamente. Não faça suposições otimistas sobre se sua pergunta será bem vinda - se você não está certo, poste a em outro lugar, ou abstenha-se totalmente de postá-la.
+post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem
 
-Ao selecionar um fórum Web, um newsgroup ou uma lista de e-mail, não confie apenas no nome de tais grupos; 
-procure por uma FAQ ou declaração para verificar se sua questão se enquadra nos tópicos do grupo.
-Leia algumas das mensagens anteriores antes de postar, de modo que você sinta como as coisas são feitas lá.
-De fato, antes de postar, é uma excelente ideia fazer uma busca no arquivo do fórum, newsgroup ou lista de e-mail 
-por palavras-chave relacionadas ao seu problema. Você pode encontrar uma resposta, e se não, isto lhe ajudará
-a formular melhor a pergunta.
+Hackers blow off questions that are inappropriately targeted in order to try to protect their communications channels from being drowned in irrelevance. You don't want this to happen to you.
 
-Não dé um tiro de espingarda em todos os canais de ajuda disponíveis de uma vez só, isto é como gritar e irritar as pessoas. 
-Avance por eles suavemente. 
+The first step, therefore, is to find the right forum. Again, Google and other Web-searching methods are your friend. Use them to find the project webpage most closely associated with the hardware or software giving you difficulties. Usually it will have links to a FAQ (Frequently Asked Questions) list, and to project mailing lists and their archives. These mailing lists are the final places to go for help, if your own efforts (including reading those FAQs you found) do not find you a solution. The project page may also describe a bug-reporting procedure, or have a link to one; if so, follow it.
 
-Saiba o que o seu tópico é! Um dos erros clássicos é fazer perguntas sobre interfaces de programação do Unix ou Windows em um fórum 
-voltado para uma linguagem, biblioteca ou ferramenta portável para ambos sistemas. Se você não entende porque isto é uma
-mancada, é melhor você não fazer pergunta alguma até você entender isto.
+Shooting off an e-mail to a person or forum which you are not familiar with is risky at best. For example, do not assume that the author of an informative webpage wants to be your free consultant. Do not make optimistic guesses about whether your question will be welcome — if you're unsure, send it elsewhere, or refrain from sending it at all.
 
-Em geral, perguntas postadas em um fórum público bem selecionado tem mais possibilidades de obter respostas úteis do que
-perguntas equivalentes em um fórum privado. Existem múltiplas rasões para isto. Uma é simplesmente a quantidade de possíveis
-respondentes. Outra é o tamanho da audiência; hackers são mais prováveis de responder questões que ajudam muitas pessoas
-no lugar de questões que sirvam a apenas algumas. 
+When selecting a Web forum, newsgroup or mailing list, don't trust the name by itself too far; look for a FAQ or charter to verify your question is on-topic. Read some of the back traffic before posting so you'll get a feel for how things are done there. In fact, it's a very good idea to do a keyword search for words relating to your problem on the newsgroup or mailing list archives before you post. It may find you an answer, and if not it will help you formulate a better question.
 
-Compreensivamente, hackers habilidosos e autores de softwares populares já recebem mensagens mal direcionadas além da conta. Contribuir para esta enchente, em casos extremos, pode ser a gota d'água - algumas vezes, contribuidores de projetos populares tem retirado o suporte devido a danos colaterais insuportáveis na forma de tráfego inútil de e-mails para suas contas pessoais.
+Don't shotgun-blast all the available help channels at once, that's like yelling and irritates people. Step through them softly.
+
+Know what your topic is! One of the classic mistakes is asking questions about the Unix or Windows programming interface in a forum devoted to a language or library or tool portable across both. If you don't understand why this is a blunder, you'd be best off not asking any questions at all until you get it.
+
+In general, questions to a well-selected public forum are more likely to get useful answers than equivalent questions to a private one. There are multiple reasons for this. One is simply the size of the pool of potential respondents. Another is the size of the audience; hackers would rather answer questions that educate many people than questions serving only a few.
+
+Understandably, skilled hackers and authors of popular software are already receiving more than their fair share of mis-targeted messages. By adding to the flood, you could in extreme cases even be the straw that breaks the camel's back — quite a few times, contributors to popular projects have withdrawn their support because collateral damage in the form of useless e-mail traffic to their personal accounts became unbearable.
 
 <a name="4.2"></a>
 
-## [Stack Overflow](http://stackoverflow.com)
+## Stack Overflow
 
-Procure, então pergunta no Stack Exchange.
+Search, then ask on Stack Exchange
 
-Em anos recentes, a comunidade de sites Stack Exchange tem emergido como o maior recurso para responder questões técnicas ou não e é até mesmo o fórum preferido para muitos projetos open-source.
+In recent years, the Stack Exchange community of sites has emerged as a major resource for answering technical and other questions and is even the preferred forum for many open-source projects.
 
-Inicia com uma busca no Google antes de procurar no Stack Exchange; o Google indexa o site em tempo real. Há uma chance muito boa de alguém
-já ter feito uma pergunta similar, e os sites Stack Exchange estão frequentemente próximos dos topo dos resultados de busca. 
-Se você não encontrou nada por meio do Google, procure novamente no site específico mais relevante para sua questão (veja abaixo). 
-Procurar usando tags providas pelo site, pode ajudar a reduzir os resultados.
+Start with a Google search before looking at Stack Exchange; Google indexes it in real time. There's a very good chance someone has already asked a similar question, and the Stack Exchange sites are often near the top of the search results. If you didn't find anything through Google, search again on the specific site most relevant to your question (see below). Searching with tags can help narrow down the results.
 
-Se você ainda não encontrou nada, poste sua pergunta no site onde ela seja mais relacionada com os tópicos abordados.
-Use as ferramentas de formatação, especialmente para código, e adicione tags que sejam relacionadas ao assunto da sua pergunta
-(particularmente o nome da linguagem de programação, sistema operacional ou biblioteca com o a qual você está tendo problemas).
-Se alguém lhe pede mais informações, edite seu post principal para incluí-la. Se qualquer resposta é útil, 
-clique na seta pra cima para adicionar um voto à resposta; se a resposta provê uma solução para seu problema,
-clique na imagem de "check" abaixo das setas de votação para aceitá-las como correta.
+If you still didn't find anything, post your question on the one site where it's most on-topic. Use the formatting tools, especially for code, and add tags that are related to the substance of your question (particularly the name of the programming language, operating system, or library you're having trouble with). If a commenter asks you for more information, edit your main post to include it. If any answer is helpful, click the up arrow to upvote it; if an answer gives a solution to your problem, click the check under the voting arrows to accept it as correct.
 
-Stack Exchange tem crescido para [mais de 100 sites](http://stackexchange.com/sites), mas aqui estão os candidatos mais prováveis:
+Stack Exchange has grown to over 100 sites, but here are the most likely candidates:
 
-- [Super User](http://superuser.com) é para questões computação de propósito geral. Se sua questão não é sobre código ou programas com os quais você interage apenas por meio de uma conexão de rede, ela provavelmente vai aqui.
-- [Stack Overflow](http://stackoverflow.com) é para questão sobre programação.
-- [Server Fault](http://serverfault.com) é para questões sobre servidores e administração de redes.
-- Muitos projetos tem seus próprios sites específicos, incluindo [Android](http://android.stackexchange.com), [Ubuntu](http://askubuntu.com), [TeX/LaTeX](http://tex.stackexchange.com), and [Microsoft SharePoint](http://sharepoint.stackexchange.com). Acesse o [Stack Exchange](http://stackexchange.com) para obter uma lista atualizada.
+Super User is for questions about general-purpose computing. If your question isn't about code or programs that you talk to only over a network connection, it probably goes here.
+
+Stack Overflow is for questions about programming.
+
+Server Fault is for questions about server and network administration.
+
+Several projects have their own specific sites, including Android, Ubuntu, TeX/LaTeX, and SharePoint. Check the Stack Exchange site for an up-to-date list.
 
 <a name="4.3"></a>
 
-## Fórums Web e IRC
+## Web and IRC forums
 
-Seu grupo de usuários local, ou sua distribuição Linux, podem fazer propaganda em um fórum Web ou canal IRC onde iniciantes podem obter ajuda
-(em países que não falam lingua inglesa, fóruns de iniciantes são ainda mais prováveis de serem listas de e-mail). Estes são primeiros lugares bons para perguntar, especialmente se você pensa possa ter tropeçado em um problema comum e relativamente simples. Um canal IRC promovido por propaganda é um convite aberto a fazer perguntas e frequentemente obter respostas em tempo real.
+Your local user group, or your Linux distribution, may advertise a Web forum or IRC channel where newbies can get help. (In non-English-speaking countries newbie forums are still more likely to be mailing lists.) These are good first places to ask, especially if you think you may have tripped over a relatively simple or common problem. An advertised IRC channel is an open invitation to ask questions there and often get answers in real time.
 
-De fato, se você obteve o programa que está lhe causando problema a partir de uma distribuição Linux (como é comum atualmente), é melhor perguntar no(a)fórum/lista da distribuição antes de tentar o(a) fórum/lista do projeto do programa. Os hackers do projeto podem apenas dizer "use nossa versão". 
+In fact, if you got the program that is giving you problems from a Linux distribution (as is common today), it may be better to ask in the distro's forum/list before trying the program's project forum/list. The project's hackers may just say, “use our build”.
 
-Antes de postar em qualquer fórum Web, verifique se ele tem um recurso de busca. Se tem, tente algumas buscas por palavras-chave relacionadas ao seu problema; isto pode realmente ajudar. Se você fez uma busca geral na Web antes (como deveria ter feito), busca no fórum de qualquer forma; o motor de busca Web que usou pode não ter indexado todo o conteúdo do fórum recentemente.  
+Before posting to any Web forum, check if it has a Search feature. If it does, try a couple of keyword searches for something like your problem; it just might help. If you did a general Web search before (as you should have), search the forum anyway; your Web-wide search engine might not have all of this forum indexed recently.
 
-Existe uma tendência crescente de projetos proverem suporte a usuários por meio de um fórum Web ou canal IRC, com e-mail reservado mais para tráfego de desenvolvimento. Então, olhe estes canais primeiros quando estiver procurando ajuda para projetos específicos. 
+There is an increasing tendency for projects to do user support over a Web forum or IRC channel, with e-mail reserved more for development traffic. So look for those channels first when seeking project-specific help.
 
-Em IRC, é provavelmente melhor não iniciar jogando uma longa descrição de um problema no canal; algumas pessoas interpretam isto como "inundação do canal". É melhor proferir uma descrição de uma linha para o problema, como uma forma de puxar conversa.
+In IRC, it's probably best not to dump a long problem description on the channel first thing; some people interpret this as channel-flooding. Best to utter a one-line problem description in a way pitched to start a conversation on the channel.
 
 <a name="4.4"></a>
 
-## Como um segundo passo, use listas de e-mail de projeto
+## As a second step, use project mailing lists
 
-Quando um projeto tem uma lista de e-mail para desenvolvedores, escreve para tal lista, não pra desenvolvedores individuais, mesmo se você acredita que você sabe quem pode melhor responder sua pergunta. Procure na documentação do projeto e em sua homepage pelo endereço da lista de e-mail, e use-a. Existem muitas boas rasões para este política:
+When a project has a development mailing list, write to the mailing list, not to individual developers, even if you believe you know who can best answer your question. Check the documentation of the project and its homepage for the address of a project mailing list, and use it. There are several good reasons for this policy:
 
-Qualquer pergunta boa o suficiente para ser feita a um desenvolvedor específico também será válida para todo o grupo. Contrariamente, se você suspeita que sua pergunta é muito tola para uma lista de e-mail, isto não é desculpa para molestar desenvolvedores individualmente.
+Any question good enough to be asked of one developer will also be of value to the whole group. Contrariwise, if you suspect your question is too dumb for a mailing list, it's not an excuse to harass individual developers.
 
-Fazendo perguntas na lista distribui a carga entre os desenvolvedores. Um determinado desenvolvedor (especialmente se ele é o líder do projeto) pode estar muito ocupado para responder suas perguntas.
+Asking questions on the list distributes load among developers. The individual developer (especially if he's the project leader) may be too busy to answer your questions.
 
-A maioria das listas de e-mail são arquivadas e os arquivos são indexados pelos motores de busca. Se você fizer sua pergunta na lista e ela for respondida, outra pessoa pode encontrar sua pergunta e a resposta na Web, em vez de perguntar novamente.
+Most mailing lists are archived and the archives are indexed by search engines. If you ask your question on-list and it is answered, a future querent could find your question and the answer on the Web instead of asking it again.
 
-Se certas perguntas parecem ser feitas frequentemente, desenvolvedores podem use esta informação para melhorar a documentação ou o próprio software para que ele se torne menos confuso. Mas se estas questões são levantadas de modo privado, ninguém tem uma visão completa de quais perguntas são feitas com mais frequência.
+If certain questions are seen to be asked often, developers can use that information to improve the documentation or the software itself to be less confusing. But if those questions are asked in private, nobody has the complete picture of what questions are asked most often.
 
-Se o projeto tem tanto uma lista de "usuários" e uma de "desenvolvedores" (ou "hackers") ou um fórum Web e você você não está hackiando o código, pergunte na lista/fórum de "usuários". Não assuma que você irá ser bem vindo na lista de desenvolvedores, onde eles provavelmente vão considerar sua pergunta como ruído quebrando o tráfego de desenvolvimento.
+If a project has both a “user” and a “developer” (or “hacker”) mailing list or Web forum, and you are not hacking on the code, ask in the “user” list/forum. Do not assume that you will be welcome on the developer list, where they're likely to experience your question as noise disrupting their developer traffic.
 
-No entanto, se você está certo que sua pergunta não é trivial, e você não obteve respostas na lista/fórum de "usuários" após vários dias, tente a lista de "desenvolvedores". É aconselhável você espreitar lá por alguns dias ou pelo menos verificar os últimos dias de mensagens arquivadas, para se familiarizar com os costumes dos integrantes antes de postar (de fato este é um bom conselho em qualquer lista privada ou semi-privada).
+However, if you are sure your question is non-trivial, and you get no answer in the “user” list/forum for several days, try the “developer” one. You would be well advised to lurk there for a few daysor at least review the last few days of archived messages, to learn the local folkways before posting (actually this is good advice on any private or semi-private list).
 
-Se você não encontrou uma lista de e-mail do projeto, mas encontrou apenas o endereço do mantenedor do projeto, vá em frente e escreve para ele. Mas mesmo neste caso, não assuma que a lista de e-mail não existe. Mencione no seu e-mail que você procurou e não encontrou uma lista de e-mail. Também mencione que você não não se impõe em sua mensagem ser encaminhada para outras pessoas. (Muitas pessoas acreditam que e-mail privado deveria se manter privado, mesmo que não exista nada secreto nele. Permitindo que sua mensagem seja encaminhada, você dá ao seu correspondente uma escolha sobre como lidar com ela.)
+If you cannot find a project's mailing list address, but only see the address of the maintainer of the project, go ahead and write to the maintainer. But even in that case, don't assume that the mailing list doesn't exist. Mention in your e-mail that you tried and could not find the appropriate mailing list. Also mention that you don't object to having your message forwarded to other people. (Many people believe that private e-mail should remain private, even if there is nothing secret in it. By allowing your message to be forwarded you give your correspondent a choice about how to handle your e-mail.)
 
 <a name="4.5"></a>
 
-## Use cabeçalhos de assunto significativos e específicos
+## Use meaningful, specific subject headers
 
 On mailing lists, newsgroups or Web forums, the subject header is your golden opportunity to attract qualified experts' attention in around 50 characters or fewer. Don't waste it on babble like “Please help me” (let alone “PLEASE HELP ME!!!!”; messages with subjects like that get discarded by reflex). Don't try to impress us with the depth of your anguish; use the space for a super-concise problem description instead.
 
 One good convention for subject headers, used by many tech support organizations, is “object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior.
 
-- Stupid: 
+- Stupid:
 	- HELP! Video doesn't work properly on my laptop!
-- Smart: 
+
+- Smart:
 	- X.org 6.8.1 misshapen mouse cursor, Fooware MV1005 vid. chipset
+
 - Smarter:
 	- X.org 6.8.1 mouse cursor on Fooware MV1005 vid. chipset - is misshapen
 
@@ -258,15 +252,15 @@ On Web forums the rules of good practice are slightly different, because message
 
 <a name="4.6"></a>
 
-## Torne fácil para responder
+## Make it easy to reply
 
-Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, [get a better mail program](http://linuxmafia.com/faq/Mail/muas.html). If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
+Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, get a better mail program. If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
 
 In Web forums, asking for a reply by e-mail is outright rude, unless you believe the information may be sensitive (and somebody will, for some unknown reason, let you but not the whole forum know it). If you want an e-mail copy when somebody replies in the thread, request that the Web forum send it; this feature is supported almost everywhere under options like “watch this thread”, “send e-mail on answers”, etc.
 
 <a name="4.7"></a>
 
-## Escreva em linguagem clara, gramatica e ortograficamente correta
+## Write in clear, grammatical, correctly-spelled language
 
 We've found by experience that people who are careless and sloppy writers are usually also careless and sloppy at thinking and coding (often enough to bet on, anyway). Answering questions for careless and sloppy thinkers is not rewarding; we'd rather spend our time elsewhere.
 
@@ -282,7 +276,7 @@ If you are writing in English but it is a second language for you, it is good fo
 
 English is not my native language; please excuse typing errors.
 
-If you speak $LANGUAGE, please e-mail/PM me; I may need assistance translating my question.
+If you speak $LANGUAGE, please email/PM me; I may need assistance translating my question.
 
 I am familiar with the technical terms, but some slang expressions and idioms are difficult for me.
 
@@ -290,11 +284,11 @@ I've posted my question in $LANGUAGE and English. I'll be glad to translate resp
 
 <a name="4.8"></a>
 
-## Envie questões em formatos acessíveis e padrões
+## Send questions in accessible, standard formats
 
 If you make your question artificially hard to read, it is more likely to be passed over in favor of one that isn't. So:
 
-Send plain text mail, not HTML. (It's not hard to [turn off HTML](http://www.birdhouse.org/etc/evilmail.html).)
+Send plain text mail, not HTML. (It's not hard to turn off HTML.)
 
 MIME attachments are usually OK, but only if they are real content (such as an attached source file or patch), and not merely boilerplate generated by your mail client (such as another copy of your message).
 
@@ -314,7 +308,7 @@ If you're using a graphical-user-interface mail client such as Netscape Messenge
 
 <a name="4.9"></a>
 
-## Seja preciso e informativo sobre o seu problema
+## Be precise and informative about your problem
 
 Describe the symptoms of your problem or bug carefully and clearly.
 
@@ -332,11 +326,11 @@ Do the best you can to anticipate the questions a hacker will ask, and answer th
 
 Giving hackers the ability to reproduce the problem in a controlled environment is especially important if you are reporting something you think is a bug in code. When you do this, your odds of getting a useful answer and the speed with which you are likely to get that answer both improve tremendously.
 
-Simon Tatham has written an excellent essay entitled [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). I strongly recommend that you read it.
+Simon Tatham has written an excellent essay entitled How to Report Bugs Effectively. I strongly recommend that you read it.
 
 <a name="4.10"></a>
 
-## Volume não é precisão
+## Volume is not precision
 
 You need to be precise and informative. This end is not served by simply dumping huge volumes of code or data into a help request. If you have a large, complicated test case that is breaking a program, try to trim it and make it as small as possible.
 
@@ -344,11 +338,11 @@ This is useful for at least three reasons. One: being seen to invest effort in s
 
 <a name="4.11"></a>
 
-## Não corra para declarar que você encontrou um bug
+## Don't rush to claim that you have found a bug
 
 When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.
 
-Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#3)?). This means that very probably it is you who are doing something wrong, not the software.
+Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, didn't you?). This means that very probably it is you who are doing something wrong, not the software.
 
 The people who wrote the software work very hard to make it work as well as possible. If you claim you have found a bug, you'll be impugning their competence, which may offend some of them even if you are correct. It's especially undiplomatic to yell “bug” in the Subject line.
 
@@ -356,7 +350,7 @@ When asking your question, it is best to write as though you assume you are doin
 
 <a name="4.12"></a>
 
-## Bajulação não substitui você de fazer seu trabalho de casa
+## Grovelling is not a substitute for doing your homework
 
 Some people who get that they shouldn't behave rudely or arrogantly, demanding an answer, retreat to the opposite extreme of grovelling. “I know I'm just a pathetic newbie loser, but...”. This is distracting and unhelpful. It's especially annoying when it's coupled with vagueness about the actual problem.
 
@@ -366,21 +360,21 @@ Sometimes Web forums have separate places for newbie questions. If you feel you 
 
 <a name="4.13"></a>
 
-## Descreva os sintomas do problema, não suas suposições
+## Describe the problem's symptoms, not your guesses
 
 It's not useful to tell hackers what you think is causing your problem. (If your diagnostic theories were such hot stuff, would you be consulting others for help?) So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you.
 
 - Stupid:
-	I'm getting back-to-back SIG11 errors on kernel compiles, and suspect a hairline crack on one of the motherboard traces. What's the best way to check for those?
+	- I'm getting back-to-back SIG11 errors on kernel compiles, and suspect a hairline crack on one of the motherboard traces. What's the best way to check for those?
 
 - Smart:
-	My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2 chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11 errors about 20 minutes after power-on during the course of kernel compiles, but never in the first 20 minutes. Rebooting doesn't restart the clock, but powering down overnight does. Swapping out all RAM didn't help. The relevant part of a typical compile session log follows.
+	- My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2 chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11 errors about 20 minutes after power-on during the course of kernel compiles, but never in the first 20 minutes. Rebooting doesn't restart the clock, but powering down overnight does. Swapping out all RAM didn't help. The relevant part of a typical compile session log follows.
 
 Since the preceding point seems to be a tough one for many people to grasp, here's a phrase to remind you: "All diagnosticians are from Missouri." That US state's official motto is "Show me" (earned in 1899, when Congressman Willard D. Vandiver said "I come from a country that raises corn and cotton and cockleburs and Democrats, and frothy eloquence neither convinces nor satisfies me. I'm from Missouri. You've got to show me.") In diagnosticians' case, it's not a matter of skepticism, but rather a literal, functional need to see whatever is as close as possible to the same raw evidence that you see, rather than your surmises and summaries. Show us.
 
 <a name="4.14"></a>
 
-## Descreva os sintomas do seu problema em uma ordem cronológica
+## Describe your problem's symptoms in chronological order
 
 The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. In the case of command-line processes, having a session log (e.g., using the script utility) and quoting the relevant twenty or so lines is very useful.
 
@@ -390,23 +384,23 @@ If your account ends up being long (more than about four paragraphs), it might b
 
 <a name="4.15"></a>
 
-## Descreva o objetivo não o passo
+## Describe the goal, not the step
 
 If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on.
 
 Often, people who need technical help have a high-level goal in mind and get stuck on what they think is one particular path towards the goal. They come for help with the step, but don't realize that the path is wrong. It can take substantial effort to get past this.
 
 - Stupid:
-	How do I get the color-picker on the FooDraw program to take a hexadecimal RGB value?
+	- How do I get the color-picker on the FooDraw program to take a hexadecimal RGB value?
 
 - Smart:
-	I'm trying to replace the color table on an image with values of my choosing. Right now the only way I can see to do this is by editing each table slot, but I can't get FooDraw's color picker to take a hexadecimal RGB value.
+	- I'm trying to replace the color table on an image with values of my choosing. Right now the only way I can see to do this is by editing each table slot, but I can't get FooDraw's color picker to take a hexadecimal RGB value.
 
 The second version of the question is smart. It allows an answer that suggests a tool better suited to the task.
 
 <a name="4.16"></a>
 
-## Não peça às pessoas para responderem por e-mail privado
+## Don't ask people to reply by private e-mail
 
 Hackers believe solving problems should be a public, transparent process during which a first try at an answer can and should be corrected if someone more knowledgeable notices that it is incomplete or incorrect. Also, helpers get some of their reward for being respondents from being seen to be competent and knowledgeable by their peers.
 
@@ -414,9 +408,9 @@ When you ask for a private reply, you are disrupting both the process and the re
 
 There is one limited exception to this rule. If you think the question is such that you are likely to get many answers that are all closely similar, then the magic words are “e-mail me and I'll summarize the answers for the group”. It is courteous to try and save the mailing list or newsgroup a flood of substantially identical postings — but you have to keep the promise to summarize.
 
-<a name="4.17" ></a>
+<a name="4.17"></a>
 
-## Seja explícito sobre sua questão
+## Be explicit about your question
 
 Open-ended questions tend to be perceived as open-ended time sinks. Those people most likely to be able to give you a useful answer are also the busiest people (if only because they take on the most work themselves). People like that are allergic to open-ended time sinks, thus they tend to be allergic to open-ended questions.
 
@@ -428,11 +422,11 @@ So it is useful to frame your question to minimize the time commitment required 
 
 <a name="4.18"></a>
 
-## Quando estiver perguntando sobre código
+## When asking about code
 
 Don't ask others to debug your broken code without giving a hint what sort of problem they should be searching for. Posting a few hundred lines of code, saying "it doesn't work", will get you ignored. Posting a dozen lines of code, saying "after line 7 I was expecting to see <x>, but <y> occurred instead" is much more likely to get you a response.
 
-The most effective way to be precise about a code problem is to provide a minimal bug-demonstrating test case. What's a minimal test case? It's an illustration of the problem; just enough code to exhibit the undesirable behavior and no more. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example (i.e. enough that the source is acceptable to the compiler/interpreter/whatever application processes it). If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. The smaller your minimal test case is, the better (see [the section called “Volume is not precision”](#4.10)).
+The most effective way to be precise about a code problem is to provide a minimal bug-demonstrating test case. What's a minimal test case? It's an illustration of the problem; just enough code to exhibit the undesirable behavior and no more. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example (i.e. enough that the source is acceptable to the compiler/interpreter/whatever application processes it). If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. The smaller your minimal test case is, the better (see the section called “Volume is not precision”).
 
 Generating a really small minimal test case will not always be possible, but trying to is good discipline. It may help you learn what you need to solve the problem on your own — and even when it doesn't, hackers like to see that you have tried. It will make them more cooperative.
 
@@ -440,7 +434,7 @@ If you simply want a code review, say as much up front, and be sure to mention w
 
 <a name="4.19"></a>
 
-## Não poste perguntas sobre trabalho de casa
+## Don't post homework questions
 
 Hackers are good at spotting homework questions; most of us have done them ourselves. Those questions are for you to work out, so that you will learn from the experience. It is OK to ask for hints, but not for entire solutions.
 
@@ -448,15 +442,15 @@ If you suspect you have been passed a homework question, but can't solve it anyw
 
 <a name="4.20"></a>
 
-## Elimine perguntas sem sentido
+## Prune pointless queries
 
 Resist the temptation to close your request for help with semantically-null questions like “Can anyone help me?” or “Is there an answer?” First: if you've written your problem description halfway competently, such tacked-on questions are at best superfluous. Second: because they are superfluous, hackers find them annoying — and are likely to return logically impeccable but dismissive answers like “Yes, you can be helped” and “No, there is no help for you.”
 
-In general, asking yes-or-no questions is a good thing to avoid unless you want a [yes-or-no answer](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html).
+In general, asking yes-or-no questions is a good thing to avoid unless you want a yes-or-no answer.
 
 <a name="4.21"></a>
 
-## Não marque sua questão como “Urgente”, até mesmo se ela é pra você
+## Don't flag your question as “Urgent”, even if it is for you
 
 That's your problem, not ours. Claiming urgency is very likely to be counter-productive: most hackers will simply delete such messages as rude and selfish attempts to elicit immediate and special attention. Furthermore, the word 'Urgent' (and other similar attempts to grab attention in the subject line) often triggers spam filters - your intended recipients might never see it at all!
 
@@ -468,7 +462,7 @@ If you find this mysterious, re-read the rest of this how-to repeatedly until yo
 
 <a name="4.22"></a>
 
-## Cortesia nunca machuca, e algumas vezes ajuda
+## Courtesy never hurts, and sometimes helps
 
 Be courteous. Use “Please” and “Thanks for your attention” or “Thanks for your consideration”. Make it clear you appreciate the time people spend helping you for free.
 
@@ -480,7 +474,7 @@ However, if you've got your technical ducks in a row, politeness does increase y
 
 <a name="4.23"></a>
 
-## Prossiga com uma breve nota sobre a solução
+## Follow up with a brief note on the solution
 
 Send a note after the problem has been solved to all who helped you; let them know how it came out and thank them again for their help. If the problem attracted general interest in a mailing list or newsgroup, it's appropriate to post the followup there.
 
@@ -500,11 +494,11 @@ Among hackers, this sort of good followup behavior is actually more important th
 
 <a name="5"></a>
 
-# Como interpretar respostas
+# How To Interpret Answers
 
 <a name="5.1"></a>
 
-## RTFM e STFW: Como saber que você está seriamente ferrado
+## RTFM and STFW: How To Tell You've Seriously Screwed Up
 
 There is an ancient and hallowed tradition: if you get a reply that reads “RTFM”, the person who sent it thinks you should have Read The Fucking Manual. He or she is almost certainly right. Go read it.
 
@@ -518,7 +512,7 @@ You shouldn't be offended by this; by hacker standards, your respondent is showi
 
 <a name="5.2"></a>
 
-## Se você não entendeu...
+## If you don't understand...
 
 If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, exhibit what you have learned.
 
@@ -526,7 +520,7 @@ For example, suppose I tell you: “It sounds like you've got a stuck zentry; yo
 
 <a name="5.3"></a>
 
-## Lidando com grosseria
+## Dealing with rudeness
 
 Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy.
 
@@ -536,13 +530,13 @@ On the other hand, you will occasionally run across rudeness and posturing that 
 
 (Some people assert that many hackers have a mild form of autism or Asperger's Syndrome, and are actually missing some of the brain circuitry that lubricates “normal” human social interaction. This may or may not be true. If you are not a hacker yourself, it may help you cope with our eccentricities if you think of us as being brain-damaged. Go right ahead. We won't care; we like being whatever it is we are, and generally have a healthy skepticism about clinical labels.)
 
-Jeff Bigler's observations about [tact filters](http://www.mit.edu/~jcb/tact.html) are also relevant and worth reading.
+Jeff Bigler's observations about tact filters are also relevant and worth reading.
 
 In the next section, we'll talk about a different issue; the kind of “rudeness” you'll see when you misbehave.
 
 <a name="6"></a>
 
-# Não reagindo como um perdedor
+# On Not Reacting Like A Loser
 
 Odds are you'll screw up a few times on hacker community forums — in ways detailed in this article, or similar. And you'll be told exactly how you screwed up, possibly with colourful asides. In public.
 
@@ -566,40 +560,32 @@ Don't let yourself be drawn into a flamewar, either. Most flames are best ignore
 
 <a name="7"></a>
 
-# Perguntas que não devem ser feitas
+# Questions Not To Ask
 
 Here are some classic stupid questions, and what hackers are thinking when they don't answer them.
 
 - Q: Where can I find program or resource X?
-	- A: The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use [Google](http://www.google.com) yet?
-
+	- A: The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use Google yet?
 - Q: How can I use X to do Y?
-	- A: If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. 
-	- Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.
-
+	- A: If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.
 - Q: How can I configure my shell prompt?
-	- A: If you're smart enough to ask this question, you're smart enough to [RTFM](#5.1) and find out yourself.
-
+	- A: If you're smart enough to ask this question, you're smart enough to RTFM and find out yourself.
 - Q: Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?
 	- A: Try it and see. If you did that, you'd (a) learn the answer, and (b) stop wasting my time.
-
 - Q: My {program, configuration, SQL statement} doesn't work
 	- A: This is not a question, and I'm not interested in playing Twenty Questions to pry your actual question out of you — I have better things to do. 
-	
 	- On seeing something like this, my reaction is normally of one of the following:
 		- do you have anything else to add to that?
 		- oh, that's too bad, I hope you get it fixed.
 		- and this has exactly what to do with me?
-
 - Q: I'm having problems with my Windows machine. Can you help?
 	- A: Yes. Throw out that Microsoft trash and install an open-source operating system like Linux or BSD.
 	- Note: you can ask questions related to Windows machines if they are about a program that does have an official Windows build, or interacts with Windows machines (i.e., Samba). Just don't be surprised by the reply that the problem is with Windows and not the program, because Windows is so broken in general that this is very often the case.
-
 - Q: My program doesn't work. I think system facility X is broken.
 	- A: While it is possible that you are the first person to notice an obvious deficiency in system calls and libraries heavily used by hundreds or thousands of people, it is rather more likely that you are utterly clueless. Extraordinary claims require extraordinary evidence; when you make a claim like this one, you must back it up with clear and exhaustive documentation of the failure case.
 
 - Q: I'm having problems installing Linux or X. Can you help?
-	- A: No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups [here](http://www.linux.org/groups/index.html).)
+	- A: No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups here.)
 	- Note: questions about installing Linux may be appropriate if you're on a forum or mailing list about a particular distribution, and the problem is with that distro; or on local user groups forums. In this case, be sure to describe the exact details of the failure. But do careful searching first, with "linux" and all suspicious pieces of hardware.
 
 - Q: How can I crack root/steal channel-ops privileges/read someone's e-mail?
@@ -607,7 +593,7 @@ Here are some classic stupid questions, and what hackers are thinking when they 
 
 <a name="8"></a>
 
-# Perguntas boas e ruins
+# Good and Bad Questions
 
 Finally, I'm going to illustrate how to ask questions in a smart way by example; pairs of questions about the same problem, one asked in a stupid way and one in a smart way.
 
@@ -639,9 +625,7 @@ Afterwards, when I thanked everyone and remarked how well the process had worked
 
 Hackers are in some ways a very ruthless meritocracy; I'm certain he was right, and that if I had behaved like a sponge I would have been flamed or ignored no matter who I was. His suggestion that I write up the whole incident as instruction to others led directly to the composition of this guide.
 
-<a name="9"></a>
-
-# Se você não consegue obter uma resposta
+If You Can't Get An Answer
 
 If you can't get an answer, please don't take it personally that we don't feel we can help you. Sometimes the members of the asked group may simply not know the answer. No response is not the same as being ignored, though admittedly it's hard to spot the difference from outside.
 
@@ -657,7 +641,7 @@ For popular software like Linux, there are at least 10,000 users per developer. 
 
 <a name="10"></a>
 
-# Como responder perguntas de uma forma útil
+# How To Answer Questions in a Helpful Way
 
 Be gentle. Problem-related stress can make people seem rude or stupid even when they're not.
 
@@ -681,14 +665,14 @@ If you did research to answer the question, demonstrate your skills rather than 
 
 <a name="11"></a>
 
-# Recursos relacionados
+# Related Resources
 
-If you need instruction in the basics of how personal computers, Unix, and the Internet work, see [The Unix and Internet Fundamentals HOWTO](http://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/).
+If you need instruction in the basics of how personal computers, Unix, and the Internet work, see The Unix and Internet Fundamentals HOWTO.
 
-When you release software or write patches for software, try to follow the guidelines in the [Software Release Practice HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
+When you release software or write patches for software, try to follow the guidelines in the Software Release Practice HOWTO.
 
 <a name="12"></a>
 
-# Agradecimentos
+# Acknowledgements
 
 Evelyn Mitchell contributed some example stupid questions and inspired the “How To Give A Good Answer” section. Mikhail Ramendik contributed some particularly valuable suggestions for improvements.
