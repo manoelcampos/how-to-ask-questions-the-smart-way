@@ -232,29 +232,28 @@ Se você não encontrou uma lista de e-mail do projeto, mas encontrou apenas o e
 <a name="4.5"></a>
 
 ## Use cabeçalhos de assunto significativos e específicos
+Em listas de e-mail, newgroups ou fóruns Web, o cabeçalho do assunto é sua oportunidade de ouro para atrair a atenção de especialistas qualificados em cerca de 50 caracteres ou menos. Não desperdice-a balbuciando coisas como "Por favor me ajude" (esqueça "POR FAVOR ME AJUDE!!!"; mensagens com assuntos como este são descartadas por reflexo). Não tente nos impressionar com a profundidade da sua angústia; em vez disso, use o espaço para uma descrição super concisa do problema.
 
-On mailing lists, newsgroups or Web forums, the subject header is your golden opportunity to attract qualified experts' attention in around 50 characters or fewer. Don't waste it on babble like “Please help me” (let alone “PLEASE HELP ME!!!!”; messages with subjects like that get discarded by reflex). Don't try to impress us with the depth of your anguish; use the space for a super-concise problem description instead.
+Uma boa conveção para cabeçalhos de assunto, usada por muitas empresas de suporte técnico, é "objeto - desvio". A parte "objeto" especifica que coisa ou grupo de coisas está tendo problema, e a parte "desvio" descreve o desvio do comportamento esperado.
 
-One good convention for subject headers, used by many tech support organizations, is “object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior.
-
-- Stupid: 
-	- HELP! Video doesn't work properly on my laptop!
-- Smart: 
-	- X.org 6.8.1 misshapen mouse cursor, Fooware MV1005 vid. chipset
+- Estúpido: 
+	- AJUDA! Vídeo não funciona corretamente no meu laptop!
+- Inteligente: 
+	- X.org 6.8.1 deforma o cursor do mouse, chipset de vídeo Fooware MV1005
 - Smarter:
-	- X.org 6.8.1 mouse cursor on Fooware MV1005 vid. chipset - is misshapen
+	- Cursor do mouse no X.org 6.8.1 sobre chipset de vídeo Fooware MV1005 fica deformado
 
-The process of writing an “object-deviation” description will help you organize your thinking about the problem in more detail. What is affected? Just the mouse cursor or other graphics too? Is this specific to the X.org version of X? To version 6.8.1? Is this specific to Fooware video chipsets? To model MV1005? A hacker who sees the result can immediately understand what it is that you are having a problem with and the problem you are having, at a glance.
+O processo de escrever uma descrião "objeto-desvio" irá ajudá-lo a organizar seu pensamento sobre o problem em mais detailhes. O que é afetado? Apenas o cursor do mouse ou outros gráficos também? É um problema específico da versão do X.org usada pelo servidor X? Ocorre somente na versão 6.8.1? É um problema específico do chipset de vídeo Fooware? Ocorre somente com o modelo MV1005? Um hacker que vê tal mensagem pode imediatamente entender porque você está problema e qual o problema em si, em um piscar de olhos.
 
-More generally, imagine looking at the index of an archive of questions, with just the subject lines showing. Make your subject line reflect your question well enough that the next person searching the archive with a question similar to yours will be able to follow the thread to an answer rather than posting the question again.
+De um modo geral, imagine procurando no índice de um arquivo de perguntas, sendo exibidas apenas as linhas do assunto. Faça o seu cabeçalho de assunto refletir sua pergunta suficientemente bem, de modo que a próxima pessoa, pesquisando o arquivo com uma questão similar à sua, será capaz de seguir a trilha para uma resposta, no lugar de postar a pergunta novamente.
 
-If you ask a question in a reply, be sure to change the subject line to indicate that you're asking a question. A Subject line that looks like “Re: test” or “Re: new bug” is less likely to attract useful amounts of attention. Also, pare quotation of previous messages to the minimum consistent with cluing in new readers.
+Se você faz uma pergunta em uma resposta, tenha certeza de alterar o cabeçalho do assunto para indicar que você está fazendo uma pergunta. O título do assunto que parece com "Re: teste" ou "Re: novo bug" é menos provável de atrair quantidade útil de atenção. Também, elimine citações de mensagens anteriores para o mínimo necessário para informar leitores posteriores.
 
-Do not simply hit reply to a list message in order to start an entirely new thread. This will limit your audience. Some mail readers, like mutt, allow the user to sort by thread and then hide messages in a thread by folding the thread. Folks who do that will never see your message.
+Não simplesmente pressione "Responder" em uma mensagem em uma lista de e-mails para iniciar um tópico completamente novo. Isto irá limitar sua audiência. Alguns softwares de leitura de e-mail, como *mutt*, permitem ao usuário ordenar mensagens por tópico e então esconder mensagens dentro de tópicos (normalmente usando um botão + para expandir e - para recolher uma mensagem). Pessoas que fazem isso nunca verão sua mensagem.
 
-Changing the subject is not sufficient. Mutt, and probably other mail readers, looks at other information in the e-mail's headers to assign it to a thread, not the subject line. Instead start an entirely new e-mail.
+Mudar o assunto não é suficiente. O *Mutt*, e provavelmente outros leitores de e-mail, procuram por outras informações nos cabeçalhos do e-mail para atribuí-lo a um tópico, não o título do assunto. Nestes casos portanto, você deve iniciar um e-mail completamente novo.
 
-On Web forums the rules of good practice are slightly different, because messages are usually much more tightly bound to specific discussion threads and often invisible outside those threads. Changing the subject when asking a question in reply is not essential. Not all forums even allow separate subject lines on replies, and nearly nobody reads them when they do. However, asking a question in a reply is a dubious practice in itself, because it will only be seen by those who are watching this thread. So, unless you are sure you want to ask only the people currently active in the thread, start a new one.
+Em fóruns da Web, as regras de boas práticas são levemente diferentes, devido ao fato de as mensagens serem usualmente muito mais fortemente vinculadas a tópicos de discussão específicos e frequentemente invisíveis fora destes tópicos. Mudar o assunto ao fazer uma pergunta em resposta a outra não é essencial. Nem todos os fóruns permitem assuntos diferentes em respostas, e quase ninguém os lê quando são diferentes. No entanto, fazer uma pergunta em uma resposta é uma prática dúbia por ela mesma, porque a pergunta apenas será vista pelas pessoas que estão observando o tópico. Assim, ao menos que você tenha certeza que deseja questionar apenas as pessoas que atualmente estão ativas no tópico, inicie um novo.
 
 <a name="4.6"></a>
 
